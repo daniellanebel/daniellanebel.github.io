@@ -178,7 +178,15 @@ div.shape1 {
   left:41%;
   right:41%;
   top:28%;
+  animation: test-animation 4s infinite alternate; /* IE 10+, Fx 29+ */
 }
+
+@keyframes test-animation {
+  0%   { border-radius: 0px; opacity: 0;  }
+  100% { border-radius: 100px; opacity: 1; }
+  }
+
+
 
 div.shape3 {
   width:1200px;
@@ -251,7 +259,9 @@ div.line3 {
 p.link {
   color:#ffffff;
   position:absolute;
+  left:45px;
   top:0px;
+  font-size:30px;
 }
 
 p.link2 {
@@ -260,10 +270,35 @@ p.link2 {
   top:20px;
 }
 
+div.link {
+  width:95px;
+  height:35px;
+  position:absolute;
+  top:40px;
+  left:35px;
+  background-color:#ffeb3bc7;
+}
+
+div.link2 {
+  width:95px;
+  height:35px;
+  position:absolute;
+  top:35px;
+  left:40px;
+  background-color:#d0512385;
+}
+
+a:hover {
+  color: #d83e32c9
+}
+
+
 </style>
   <body>
-    <a href="https://winniekuo0715.github.io/project/7-text-wen-hsin-10.html" target="_blank"><p class="link">previous</p></a>
-    <a href="https://maxbatt22.github.io/project/9-text-shreya.html" target="_blank"><p class="link2">next</p></a>
+    <div class="link"></div>
+    <div class="link2"></div>
+    <a href="https://winniekuo0715.github.io/project/7-text-wen-hsin-10.html" target="_blank"><p class="link">Previous</p></a>
+    <a href="https://maxbatt22.github.io/project/9-text-shreya.html" target="_blank"><p class="link2">Next</p></a>
     <br >
     <br >
     <br >
