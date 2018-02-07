@@ -5,7 +5,10 @@
     <title>Daniella'sProject1</title>
   </head>
 
+
 <style>
+
+@import url("https://use.typekit.net/xrp3hdw.css");
 
 body {
   background-color: #001233;
@@ -13,20 +16,23 @@ body {
 
 p {
   position:absolute;
-  top:9200px;
+
 }
 
 p.centralization {
   text-align: center;
-  font-size: 18px;
-  z-index:-2;
+  font-size: 15px;
+  z-index:-3;
   position:fixed;
   left:41%;
   right:41%;
-  top:35%;
+  top:36.5%;
   max-width:200px;
   min-width: 200px;
   color:#94c1b6;
+  font-family: "brevia",sans-serif;
+  font-style: normal;
+  font-weight: 700;
 
 }
 
@@ -34,7 +40,8 @@ p.block {
   color:#001233;
   position:absolute;
   left:60px;
-  top:480px;
+  top:35%;
+  bottom:35%;
   font-size:15px;
   max-width:950px;
   transform:rotate(90deg);
@@ -44,11 +51,12 @@ p.block {
 p.block2 {
   color:#001233;
   position:absolute;
-  left:435px;
-  top:180px;
+  left:30%;
+  right:30%;
+  top:150px;
   font-size:15px;
-  max-width:250px;
-  line-height:25px;
+  max-width:450px;
+  line-height:35px;
 }
 
 p.p1 {
@@ -58,7 +66,9 @@ p.p1 {
   position:absolute;
   left:45px;
   top:1550px;
-  font-family:courier;
+  font-family: "brevia",sans-serif;
+font-style: normal;
+font-weight: 300;
 }
 
 p.p2 {
@@ -68,18 +78,22 @@ p.p2 {
   position:absolute;
   left:740px;
   top:1750px;
-  font-family:courier;
+  font-family: "brevia",sans-serif;
+font-style: normal;
+font-weight: 300;
 }
 
 p.p3 {
   color:#9acabe;
-  font-size:17.5px;
-  max-width:850px;
+  font-size:35px;
+  max-width:650px;
   position:absolute;
-  left:55px;
-  top:2250px;
-  font-family:courier;
-  line-height:25px;
+  left:258px;
+  top:2150px;
+  font-family: "brevia",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 45px;
 }
 
 strong.suppressed {
@@ -91,23 +105,28 @@ p.apple {
   color:#001233;
   font-size:16.5px;
   position:absolute;
-  left:460px;
+  left:42.5%;
+
   top:2550px;
   font-family:courier;
-  max-width:180px;
+  max-width:190px;
   text-transform: uppercase;
 }
 
 p.diversity {
   color:#9acabe;
   transform:rotate(90deg);
-  font-size:130px;
+
+  font-size:100px;
   font-family:courier;
-  min-width: 90px;
+  max-height: 400px;
+  min-height: 400px;
+  max-width: 900px;
+  min-width: 900px;
   line-height: 105px;
   position:absolute;
-  right:1px;
-  top:2950px;
+  left:30%;
+  top:3150px;
 }
 
 p.arrest {
@@ -115,7 +134,7 @@ p.arrest {
   font-family:courier;
   font-size:18px;
   position:absolute;
-  right:330px;
+  right:318px;
   top:4310px;
   transform:rotate(90deg);
   max-width:400px;
@@ -124,12 +143,12 @@ p.arrest {
 
 p.blogging {
   color:#001233;
-  font-size:15px;
+  font-size:13px;
   position:absolute;
-  left:460px;
+  left:463px;
   top:4950px;
   font-family:courier;
-  max-width:180px;
+  max-width:170px;
   text-transform: uppercase;
 }
 
@@ -137,23 +156,24 @@ p.internet {
   color:#9acabe;
   font-size:89.5px;
   font-family:courier;
-  min-width: 90px;
+  max-width: 970px;
+  min-width: 970px;
   line-height: 105px;
   position:absolute;
-  right:1px;
+  right:4px;
+  left:4px;
   top:5850px;
 }
 
 p.whatif {
   color:#9acabe;
   transform:rotate(90deg);
-  font-size:110px;
+  font-size:87px;
   font-family:courier;
-  min-width: 90px;
   line-height: 30px;
   position:absolute;
   right:1px;
-  top:6550px;
+  top:6950px;
 }
 
 p.possessed {
@@ -161,9 +181,9 @@ p.possessed {
   font-size:14.5px;
   text-align: center;
   position:absolute;
-  left:450px;
-  top:8550px;
-  font-family:verdana;
+  left:443px;
+  top:8590px;
+  font-family:courier;
   max-width:180px;
 }
 
@@ -172,53 +192,113 @@ div.shape1 {
   width:200px;
   height:200px;
   border-radius:50%;
-  z-index:-2;
+  z-index:-3;
   background-color: #bee2da;
   position:fixed;
   left:41%;
   right:41%;
   top:28%;
-  
+
 }
 
 
 
 div.shape3 {
-  width:1200px;
+  width:1064px;
   height:1200px;
   opacity:0.6;
   z-index:-1;
   background:#000715;
   position:absolute;
   top:3000px;
+  left:0px;
 }
 
+div.shape4 {
+  width:450px;
+  height:8700px;
+  background:#001233;
+    z-index: -2;
+  position:absolute;
+  top:100px;
+  left:200px;
+  opacity:.7;
+  animation: shrink 15s forwards; /* IE 10+, Fx 29+ */
+
+}
+
+@keyframes shrink {
+    0%   { width: 450px; }
+    7%  { width: 450px; }
+    100%   { width: 0px; }
+      }
+
+div.shape5 {
+  width:450px;
+  height:8700px;
+  background:#001233;
+  z-index: -2;
+  position:absolute;
+  top:100px;
+  right:188px;
+  opacity:.7;
+  animation: shrink2 15s forwards ; /* IE 10+, Fx 29+ */
+}
+
+@keyframes shrink2 {
+    0%   { width: 450px; }
+    7%  { width: 450px; }
+    100%   { width: 0px; }
+      }
+
 div.line1 {
-  width:1500px;
+  width:1000px;
   height:1px;
-  z-index:-2;
+
   background-color: #40ffd3;
   position:fixed;
-  right:0%;
+  right:2.5%;
   top:46%;
   opacity:0.3;
+  animation: growline 7.5s forwards ; /* IE 10+, Fx 29+ */
 }
+
+      div.linetwo {
+        width:1000px;
+        height:1px;
+
+        background-color: #40ffd3;
+        position:fixed;
+        left:2.5%;
+        top:46%;
+        opacity:0.3;
+        animation: growline 7.5s forwards ; /* IE 10+, Fx 29+ */
+      }
+
+      @keyframes growline {
+          0%   { width: 0px; }
+          100%   { width: 1000px; }
+            }
+
+
 
 div.line2nd {
   width:2px;
   height:1000px;
-  z-index:-2;
+
   background-color: #40ffd3;
   position:fixed;
   left:36%;
   top:0%;
   opacity:0.5;
-}
+  animation: opacitylines 2.5s infinite alternate; /* IE 10+, Fx 29+ */
+
+    }
 
 div.line2 {
   width:1000px;
   height:1px;
-  z-index:-2;
+
   background-color: #40ffd3;
   position:fixed;
   right:0%;
@@ -226,88 +306,156 @@ div.line2 {
   top:10%;
   transform:rotate(90deg);
   opacity:0.3;
-}
+  animation: opacitylines 2.5s infinite alternate; /* IE 10+, Fx 29+ */
+
+    }
 
 div.line3rd {
   width:2px;
   height:1000px;
-  z-index:-2;
+
   background-color: #40ffd3;
   position:fixed;
   right:35%;
   top:0%;
   opacity:0.5;
-}
+  animation: opacitylines 2.5s infinite alternate; /* IE 10+, Fx 29+ */
+
+    }
+
 
 div.line3 {
   width:1000px;
   height:1px;
-  z-index:-2;
+
   background-color: #40ffd3;
   position:fixed;
   right:14%;
   top:10%;
   transform:rotate(90deg);
   opacity:0.3;
-}
+  animation: opacitylines 2.5s infinite alternate; /* IE 10+, Fx 29+ */
+
+    }
+
+@keyframes opacitylines {
+  0%   { opacity: 0; }
+  100%   { opacity: 1; }
+    }
 
 p.link {
   color:#ffffff;
   position:absolute;
-  left:45px;
-  top:0px;
-  font-size:30px;
+  left:52px;
+  top:12px;
+  font-size:22px;
+}
+
+p.link:hover {
+  color:#d83e32c9;
+
 }
 
 p.link2 {
   color:#ffffff;
   position:absolute;
-  top:20px;
+  top:8850px;
+  right:30px;
 }
 
-div.link {
-  width:95px;
+div.linkbox {
+  width:120px;
   height:35px;
   position:absolute;
-  top:40px;
-  left:35px;
+  top:43px;
+  left:46px;
   background-color:#ffeb3bc7;
+  transition:.5s;
 }
 
-div.link2 {
-  width:95px;
+div.linkbox:hover {
+  width:180px;
+}
+
+div.linkbox2 {
+  width:110px;
   height:35px;
   position:absolute;
   top:35px;
   left:40px;
   background-color:#d0512385;
+  transition:.5s;
 }
 
-a:link {
+div.linkbox2:hover {
+  width:150px;
+}
+
+var.whatif1 {
+  color:#ff5c98;
+  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
 
 }
-a:hover {
-  color: #d83e32c9
+
+
+
+var.whatif2 {
+  color:#ff5c98;
+  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+
 }
+
+
+
+
+var.whatif3 {
+  color:#ff5c98;
+  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+
+}
+
+
+
+var.whatif4 {
+  color:#ff5c98;
+  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+
+}
+
+
+
+var.whatif5 {
+    color:#ff5c98;
+    font-size:97px;
+    animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+
+      }
+
+@keyframes colors {
+    0%   { color: #9acabe; }
+    100%   { width: #ff5c98; }
+      }
 
 
 </style>
   <body>
-    <div class="link"></div>
-    <div class="link2"></div>
+    <div class="linkbox"></div>
+    <div class="linkbox2"></div>
     <a href="https://winniekuo0715.github.io/project/7-text-wen-hsin-10.html" target="_blank"><p class="link">Previous</p></a>
     <a href="https://maxbatt22.github.io/project/9-text-shreya.html" target="_blank"><p class="link2">Next</p></a>
     <br >
     <br >
     <br >
     <div class="line1"></div>
-
+    <div class="linetwo"></div>
     <div class="line2"></div>
     <div class="line3"></div>
     <div class="shape1"></div>
     <div class="line2nd"></div>
     <div class="line3rd"></div>
     <div class="shape3"></div>
+    <div class="shape4"></div>
+      <div class="shape5"></div>
 
 
     <p class="block" >
@@ -384,7 +532,7 @@ is less online today than it was in the past.
 
 <div class="shape2"> </div>
 <p class="diversity">
-    But diversity  &nbsp;&nbsp;&nbsp;&nbsp; <br> is being reduced &nbsp;&nbsp;&nbsp;&nbsp;<br> in other ways, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> <br>and for other purposes....
+    But diversity  &nbsp;&nbsp;&nbsp;&nbsp; <br> is being reduced &nbsp;&nbsp;&nbsp;&nbsp;<br> in other ways, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>and for other purposes....
 </p>
 
 <p class="arrest">
@@ -404,36 +552,38 @@ is less online today than it was in the past.
 </p>
 
 <p class="whatif">
-    <var style="color: #ff5c98">But what if </var>my account on Facebook or Twitter is shut down <br>
-    for any reason? Those services themselves may not die any time<br><br>
-    soon, but it would be not too difficult to imagine a day many<br>
-    American services <var style="color: #ff5c98">what if </var>shut down accounts of anyone who is from
-    Iran, as a result of the current regime of sanctions. If that<br> <br>
-    happened, I might be able to download my posts in some of
-    them <var style="color: #ff5c98">what if </var>and let’s assume the backup can be easily imported into
-    another platform. <var style="color: #ff5c98">But what about</var> the unique web address for my social network
+    <var class="whatif1">But what if </var>my account on Facebook or Twitter is shut down <br>
+    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;for any reason? Those services themselves may not die any time<br><br>
+    soon, but it would be not too difficult to imagine a day many
+    American services <var class="whatif2">what if </var>shut down accounts of anyone who is from
+       Iran, as a result of the current regime of sanctions. If that
+      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; happened, I might be able to download my posts in some of
+    them <var class="whatif3">what if </var>and let’s assume the backup can be easily imported into
+    another platform. <var class="whatif4">But what about</var> the unique web address for my social network
     profile?
+
+<var class="whatif whatif5">WHAT IF?</var>
+
 </p>
 <p class="possessed">
      Would I be able to claim it back later, after somebody else has possessed it?
 
-
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
-     <br >
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
 
 
 </p>
