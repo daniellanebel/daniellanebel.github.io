@@ -13,18 +13,16 @@
 
 body {
   background-color: #001233;
-
-}
-
-p {
-  position:absolute;
+  max-width: 100vw;
+overflow-x: hidden;
+max-height: 10400px;
 
 }
 
 p.centralization {
   text-align: center;
   font-size: 15px;
-  z-index:-3;
+  z-index:-4;
   position:fixed;
   left:41%;
   right:41%;
@@ -41,8 +39,8 @@ p.centralization {
 p.block {
   color:#001233;
   position:absolute;
-  left:80px;
-  right:80px;
+  left:125px;
+  right:125px;
   top:32%;
   bottom:32%;
   font-size:15px;
@@ -68,7 +66,7 @@ p.p1 {
   max-width:300px;
   min-width:300px;
   position:absolute;
-  left:45px;
+  left:145px;
   top:1550px;
   font-family: "brevia",sans-serif;
 font-style: normal;
@@ -81,7 +79,7 @@ p.p2 {
   max-width:300px;
   min-width:300px;
   position:absolute;
-  left:740px;
+  left:840px;
   top:1750px;
   font-family: "brevia",sans-serif;
 font-style: normal;
@@ -94,7 +92,7 @@ p.p3 {
   max-width:650px;
   min-width:650px;
   position:absolute;
-  left:258px;
+  left:27%;
   top:2150px;
   font-family: "brevia",sans-serif;
   font-style: normal;
@@ -140,7 +138,7 @@ p.arrest {
   font-family:courier;
   font-size:18px;
   position:absolute;
-  left:32%;
+  left:33%;
   top:4310px;
   transform:rotate(90deg);
   max-width:400px;
@@ -151,7 +149,7 @@ p.blogging {
   color:#001233;
   font-size:13px;
   position:absolute;
-  left:463px;
+  left:44%;
   top:4950px;
   font-family:courier;
   max-width:170px;
@@ -160,27 +158,17 @@ p.blogging {
 
 p.internet {
   color:#9acabe;
-  font-size:89.5px;
+  font-size:75px;
   font-family:courier;
-  max-width: 970px;
-  min-width: 970px;
+  max-width: 870px;
+  min-width: 870px;
   line-height: 105px;
   position:absolute;
-  right:4px;
-  left:4px;
+  left:12%;
   top:5850px;
 }
 
-p.whatif {
-  color:#9acabe;
-  transform:rotate(90deg);
-  font-size:87px;
-  font-family:courier;
-  line-height: 30px;
-  position:absolute;
-  right:1px;
-  top:6950px;
-}
+
 
 p.possessed {
   color:#001233;
@@ -198,7 +186,7 @@ div.shape1 {
   width:200px;
   height:200px;
   border-radius:50%;
-  z-index:-3;
+  z-index:-4;
   background-color: #bee2da;
   position:fixed;
   left:41%;
@@ -222,13 +210,13 @@ div.shape3 {
 }
 
 div.shape4 {
-  width:450px;
-  height:8700px;
+  width:650px;
+  height:7100px;
   background:#001233;
-    z-index: -2;
+    z-index: -3;
   position:absolute;
   top:100px;
-  left:200px;
+  left:17%;
   opacity:.7;
   animation: shrink 15s forwards; /* IE 10+, Fx 29+ */
 
@@ -241,13 +229,13 @@ div.shape4 {
       }
 
 div.shape5 {
-  width:450px;
-  height:8700px;
+  width:650px;
+  height:7100px;
   background:#001233;
-  z-index: -2;
+  z-index: -3;
   position:absolute;
   top:100px;
-  right:188px;
+  right:17%;
   opacity:.7;
   animation: shrink2 15s forwards ; /* IE 10+, Fx 29+ */
 }
@@ -267,6 +255,7 @@ div.line1 {
   right:2.5%;
   top:46%;
   opacity:0.3;
+  z-index: -2;
   animation: growline 7.5s forwards ; /* IE 10+, Fx 29+ */
 }
 
@@ -279,6 +268,7 @@ div.line1 {
         left:2.5%;
         top:46%;
         opacity:0.3;
+        z-index: -2;
         animation: growline 7.5s forwards ; /* IE 10+, Fx 29+ */
       }
 
@@ -351,7 +341,7 @@ div.line3 {
     }
 
 p.link {
-  color:#ffffff;
+  color:black;
   position:absolute;
   left:52px;
   top:12px;
@@ -359,24 +349,29 @@ p.link {
 }
 
 p.link:hover {
-  color:#d83e32c9;
+  color:white;
 
 }
 
 p.link2 {
-  color:#ffffff;
+  color:black;
   position:absolute;
   top:12px;
   right:30px;
 }
 
+p.link2:hover {
+  color:#666666;
+
+}
+
 div.linkbox {
-  width:120px;
+  width:150px;
   height:35px;
   position:absolute;
   top:43px;
   left:46px;
-  background-color:#ffeb3bc7;
+  background-color:#ffffff;
   transition:.5s;
 }
 
@@ -385,56 +380,109 @@ div.linkbox:hover {
 }
 
 div.linkbox2 {
-  width:110px;
+  width:130px;
   height:35px;
   position:absolute;
   top:35px;
   left:40px;
-  background-color:#d0512385;
+  background-color:red;
   transition:.5s;
 }
 
 div.linkbox2:hover {
-  width:150px;
+  transform:rotate(180deg);
 }
 
-var.whatif1 {
+div.link2box {
+  width:38px;
+  height:25px;
+  position:absolute;
+  top:23px;
+  right:26px;
+  background-color:#bee2da;
+  opacity:.7;
+  transition:.5s;
+}
+
+p.whatif1 {
   color:#ff5c98;
-  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+  position:absolute;
+  font-size:80px;
+  left:830px;
+  top:7000px;
+  font-family:courier;
+  line-height: 33px;
+  transform:rotate(90deg);
+  z-index: -6;
+  animation: colors .3s infinite alternate, falling 15s infinite; /* IE 10+, Fx 29+ */
+
 
 }
 
 
 
-var.whatif2 {
+p.whatif2 {
   color:#ff5c98;
-  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+  position:absolute;
+  font-size:80px;
+  left:230px;
+  top:7000px;
+  font-family:courier;
+  line-height: 33px;
+  transform:rotate(90deg);
+  z-index: -6;
+  animation: colors .15s infinite alternate, falling 9s infinite ; /* IE 10+, Fx 29+ */
+
 
 }
 
 
-
-
-var.whatif3 {
+p.whatif3 {
   color:#ff5c98;
-  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+  position:absolute;
+  font-size:80px;
+  left:130px;
+  top:7000px;
+  font-family:courier;
+  line-height: 33px;
+  transform:rotate(90deg);
+  z-index: -6;
+  animation: colors .8s infinite alternate, falling 15s infinite; /* IE 10+, Fx 29+ */
+
 
 }
 
 
 
-var.whatif4 {
+p.whatif4 {
   color:#ff5c98;
-  animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+  position:absolute;
+  font-size:80px;
+  left:30px;
+  top:7000px;
+  font-family:courier;
+  line-height: 33px;
+  transform:rotate(90deg);
+  z-index: -6;
+  animation: colors .3s infinite alternate, falling 20s infinite ; /* IE 10+, Fx 29+ */
+
 
 }
 
 
 
-var.whatif5 {
+p.whatif5 {
     color:#ff5c98;
     font-size:97px;
-    animation: colors .5s infinite alternate; /* IE 10+, Fx 29+ */
+    position:absolute;
+    left:600px;
+    top:7000px;
+    font-family:courier;
+    line-height: 83px;
+    transform:rotate(90deg);
+    z-index: -6;
+    animation: colors .5s infinite alternate, falling 7s infinite ; /* IE 10+, Fx 29+ */
+
 
       }
 
@@ -445,6 +493,707 @@ var.whatif5 {
 
 
 
+p.whatif6 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  right:250px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 10s infinite ; /* IE 10+, Fx 29+ */
+  animation-delay: 1s;
+}
+
+p.whatif7 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  left:350px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 12s infinite ; /* IE 10+, Fx 29+ */
+  animation-delay: 2;s;
+
+}
+p.whatif8 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  position:absolute;
+  right:400px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 18s infinite ; /* IE 10+, Fx 29+ */
+ animation-delay: .5s;
+}
+
+p.whatif9 {color:#9acabe;
+transform:rotate(90deg);
+font-size:57px;
+font-family:courier;
+line-height: 35px;
+min-width: 800px;
+position:absolute;
+right:520px;
+top:7000px;
+z-index: -6;
+animation: falling 6s infinite ; /* IE 10+, Fx 29+ */
+animation-delay: -1s;
+
+}
+
+p.whatif10 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  right:1px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 9s infinite ; /* IE 10+, Fx 29+ */
+  animation-delay: 3s;
+
+}
+
+p.whatif11 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  left:1100px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 22s infinite ; /* IE 10+, Fx 29+ */
+
+
+}
+
+p.whatif12 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  right:100px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 10s infinite ; /* IE 10+, Fx 29+ */
+  animation-delay: 1s;
+
+}
+
+p.whatif13 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  left:860px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 14s infinite ; /* IE 10+, Fx 29+ */
+
+}
+
+p.whatif14 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  left:630px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 17s infinite ; /* IE 10+, Fx 29+ */
+  animation-delay: .5s;
+}
+
+p.whatif15 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  left:910px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 5s infinite ; /* IE 10+, Fx 29+ */
+  animation-delay: 3s;
+}
+
+p.whatif16 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  left:130px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 7s infinite ; /* IE 10+, Fx 29+ */
+}
+
+p.whatif17 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  right:130px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 20s infinite ; /* IE 10+, Fx 29+ */
+}
+
+p.whatif18 {color:#9acabe;
+transform:rotate(90deg);
+font-size:57px;
+font-family:courier;
+line-height: 35px;
+min-width: 800px;
+position:absolute;
+right:220px;
+top:7000px;
+z-index: -6;
+animation: falling 6s infinite ; /* IE 10+, Fx 29+ */
+animation-delay: -3s;
+
+}
+
+p.whatif19 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  min-width: 1000px;
+  position:absolute;
+  left:830px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 7s infinite ; /* IE 10+, Fx 29+ */
+  animation-delay: 6s;
+}
+
+p.whatif20 {
+  color:#001233;
+  transform:rotate(90deg);
+  font-size:75px;
+  font-family:courier;
+  line-height: 43px;
+  min-width: 1500px;
+  position:absolute;
+  top:8300px;
+  left:-21%;
+  right:-21%;
+  z-index: -4;
+
+
+}
+
+p.whatif21 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  position:absolute;
+  right:600px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 18s infinite ; /* IE 10+, Fx 29+ */
+ animation-delay: 3s;
+}
+
+p.whatif22 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 93px;
+  position:absolute;
+  right:950px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 14s infinite ; /* IE 10+, Fx 29+ */
+ animation-delay: 5s;
+}
+
+
+p.whatif23 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  position:absolute;
+  right:160px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 8s infinite ; /* IE 10+, Fx 29+ */
+ animation-delay: 4s;
+}
+
+
+
+p.whatif24 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  position:absolute;
+  right:800px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 24s infinite ; /* IE 10+, Fx 29+ */
+ animation-delay: .5s;
+}
+
+p.whatif25 {
+  color:#9acabe;
+  transform:rotate(90deg);
+  font-size:57px;
+  font-family:courier;
+  line-height: 33px;
+  position:absolute;
+  left: 600px;
+  top:7000px;
+  z-index: -6;
+  animation: falling 13s infinite ; /* IE 10+, Fx 29+ */
+
+}
+
+
+
+
+
+
+
+  @keyframes falling {
+
+    9.5% { top: 7000px; }
+    10%  { top: 7560px; }
+
+    19.5% { top: 7560px; }
+    20%  { top: 7920px; }
+
+    29.5% { top: 7920px; }
+    30%  { top: 8280px; }
+
+    39.5% { top: 8280px; }
+    40%  { top: 8640px; }
+
+    49.5% { top: 8640px; }
+    50%   { top: 9000px; }
+
+    59.5% { top: 9000px; }
+    60%   { top: 9360px; }
+
+    69.5% { top: 9360px; }
+    70%   { top: 9720px; }
+
+    79.5% { top: 9720px; }
+    80%   { top: 10080px; }
+
+    89.5% { top: 10080px }
+    90% { top: 10200px}
+
+    100%   { top: 10200px; }
+
+        }
+
+
+
+
+div.shape6 {
+  width:2500px;
+  height:800px;
+  position:absolute;
+  top:6400px;
+  left:1px;
+  background-color:#001233;
+  z-index: -5;
+
+
+}
+
+div.shape7 {
+  width:2500px;
+  height:800px;
+  position:absolute;
+  top:10000px;
+  left:1px;
+  background-color:#001233;
+  z-index: -5;
+
+
+}
+
+
+div.shape8 {
+  width:200px;
+  height:2800px;
+  position:absolute;
+  top:7200px;
+  left:41%;
+  background-color:#034458;
+  z-index: -5;
+
+
+}
+
+
+
+div.shape9 {
+  width:2500px;
+  height:3000px;
+  position:absolute;
+  top:7200px;
+  left:1px;
+  background-color:#010b1d;
+  z-index: -6;
+
+
+}
+
+div.circles {
+  position:absolute;
+  top:10000px;
+  max-height: 800px;
+  overflow-y: hidden;
+  opacity:.6;
+  z-index: -4;
+}
+
+div.shape10 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-3;
+  background-color: #bee2da;
+  float:left
+
+}
+
+div.shape11 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  position:absolute;
+  float:left;
+}
+
+
+div.shape12 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+}
+
+div.shape13 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+}
+
+div.shape14 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+}
+div.shape15 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+}
+div.shape16 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape17 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape18 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape19 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape20 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape21 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape22 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape23 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape24 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape25 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape26 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape27 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape28 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+div.shape29 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape30 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape31 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape32 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape33 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape34 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape35 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape36 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape37 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape38 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape39 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+div.shape40 {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  z-index:-4;
+  background-color: #bee2da;
+  float:left;
+
+}
+
+
+
+
+
+
 
 
 </style>
@@ -452,6 +1201,7 @@ var.whatif5 {
 
     <div class="linkbox"></div>
     <div class="linkbox2"></div>
+    <div class="link2box"></div>
     <a href="https://winniekuo0715.github.io/project/7-text-wen-hsin-10.html" target="_blank"><p class="link">Previous</p></a>
     <a href="https://maxbatt22.github.io/project/9-text-shreya.html" target="_blank"><p class="link2">Next</p></a>
     <br >
@@ -462,12 +1212,49 @@ var.whatif5 {
     <div class="line2"></div>
     <div class="line3"></div>
     <div class="shape1"></div>
-    <div class="line2nd"></div>
-    <div class="line3rd"></div>
+    <div class="line2nd target"></div>
+    <div class="line3rd target"></div>
     <div class="shape3"></div>
     <div class="shape4"></div>
-      <div class="shape5"></div>
+    <div class="shape5"></div>
+    <div class="shape6"></div>
+    <div class="shape7"></div>
+    <div class="shape8"></div>
+    <div class="shape9"></div>
 
+    <div class="circles">
+    <div class="shape10"></div>
+    <div class="shape11"></div>
+    <div class="shape12"></div>
+    <div class="shape13"></div>
+    <div class="shape14"></div>
+    <div class="shape15"></div>
+    <div class="shape16"></div>
+    <div class="shape17"></div>
+    <div class="shape18"></div>
+    <div class="shape19"></div>
+    <div class="shape20"></div>
+    <div class="shape21"></div>
+    <div class="shape22"></div>
+    <div class="shape23"></div>
+    <div class="shape24"></div>
+    <div class="shape25"></div>
+    <div class="shape26"></div>
+    <div class="shape27"></div>
+    <div class="shape28"></div>
+    <div class="shape29"></div>
+    <div class="shape30"></div>
+    <div class="shape31"></div>
+    <div class="shape32"></div>
+    <div class="shape33"></div>
+    <div class="shape34"></div>
+    <div class="shape35"></div>
+    <div class="shape36"></div>
+    <div class="shape37"></div>
+    <div class="shape38"></div>
+    <div class="shape39"></div>
+    <div class="shape40"></div>
+    </div>
 
     <p class="block" >
         Some of it is visual. Yes, it is true that all my posts on Twitter and Facebook
@@ -492,7 +1279,7 @@ var.whatif5 {
         My page must follow a uniform look which the designers of
         the social network decide for me.
     </p >
-    </p >
+
 
     <p class="block2" >
         Some of it is visual. Yes, it is true that all my posts on Twitter and Facebook
@@ -562,42 +1349,36 @@ is less online today than it was in the past.
     Even if I didn’t, the Internet archive <del ><ruby style="color:#001233;">might<rt style="color:#001233;">WILL</rt></ruby></del> keep a copy........
 </p>
 
-<p class="whatif">
-    <var class="whatif1">But what if </var>my account on Facebook or Twitter is shut down <br>
-    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;for any reason? Those services themselves may not die any time<br><br>
-    soon, but it would be not too difficult to imagine a day many
-    American services <var class="whatif2">what if </var>shut down accounts of anyone who is from
-       Iran, as a result of the current regime of sanctions. If that
-      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; happened, I might be able to download my posts in some of
-    them <var class="whatif3">what if </var>and let’s assume the backup can be easily imported into
-    another platform. <var class="whatif4">But what about</var> the unique web address for my social network
-    profile?
 
-<var class="whatif whatif5">WHAT IF?</var>
-
-</p>
-<p class="possessed">
-     Would I be able to claim it back later, after somebody else has possessed it?
-
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
+    <p class="whatif1">But what if </p>
+    <p class="whatif6">my account on Facebook or Twitter is shut down </p>
+    <p class="whatif7">for any reason? Those services themselves may not die any time</p>
+    <p class="whatif8">soon, but it would be not too difficult </p>
+    <p class="whatif9">to imagine a day many
+    American services </p>
+    <p class="whatif2">what if </p>
+    <p class="whatif9">shut down accounts from anyone </p>
+    <p class="whatif10">who is from Iran </p>
+    <p class="whatif11"> as a result of the current regime of sanctions.</p>
+    <p class="whatif12">If that happened</p>
+    <p class="whatif13"> I might be able to download my posts </p>
+    <p class="whatif3">what if </p>
+    <p class="whatif14">and let’s assume</p>
+    <p class="whatif15">the backup can be easily imported </p>
+    <p class="whatif16">into another platform.</p>
+    <p class="whatif4">But what about</p>
+    <p class="whatif17">the unique web address for my social network profile?</p>
+    <p class="whatif5">WHAT IF?</p>
+    <p class="whatif18">and let’s assume</p>
+    <p class="whatif19"> I might be able to download my posts </p>
+    <p class="whatif20">I have very little control</p>
+    <p class="whatif21"> shut down for any reason? </p>
+    <p class="whatif22"> let's assume </p>
+    <p class="whatif23"> I might be able to download </p>
+    <p class="whatif24"> THE SERVICES THEMSELVES WILL NOT DIE </P>
+    <p class="whatif25"> Facebook or Twittet got shut down </p>
 
 
-</p>
 
   </body>
 </html>
