@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+
+    $( document ).ready(function() {
+
+      $( ".cursors1" ).click(function() {
+        $("body").removeClass("mario-cursor");
+          $("body").removeClass("yoshi-cursor");
+            $("body").addClass("link-cursor");
+              $("body").removeClass("charmander-cursor");
+              $("body").removeClass("sonic-cursor");
+              $("body").removeClass("pacman-cursor");
+              $("body").removeClass("creeper-cursor");
+
+      });
+
+      $( ".cursors2" ).click(function() {
+        $("body").addClass("charmander-cursor");
+        $("body").removeClass("mario-cursor");
+          $("body").removeClass("yoshi-cursor");
+            $("body").removeClass("link-cursor");
+            $("body").removeClass("sonic-cursor");
+            $("body").removeClass("pacman-cursor");
+            $("body").removeClass("creeper-cursor");
+      });
+
+      $( ".cursors3" ).click(function() {
+        $("body").removeClass("charmander-cursor");
+        $("body").addClass("mario-cursor");
+          $("body").removeClass("yoshi-cursor");
+            $("body").removeClass("link-cursor");
+            $("body").removeClass("sonic-cursor");
+            $("body").removeClass("pacman-cursor");
+            $("body").removeClass("creeper-cursor");
+      });
+
+
+      $( ".cursors4" ).click(function() {
+        $("body").removeClass("charmander-cursor");
+        $("body").removeClass("mario-cursor");
+          $("body").addClass("yoshi-cursor");
+            $("body").removeClass("link-cursor");
+            $("body").removeClass("sonic-cursor");
+            $("body").removeClass("pacman-cursor");
+            $("body").removeClass("creeper-cursor");
+      });
+
+      $( ".cursors5" ).click(function() {
+        $("body").removeClass("charmander-cursor");
+        $("body").removeClass("mario-cursor");
+          $("body").removeClass("yoshi-cursor");
+            $("body").removeClass("link-cursor");
+            $("body").addClass("sonic-cursor");
+            $("body").removeClass("pacman-cursor");
+            $("body").removeClass("creeper-cursor");
+      });
+
+      $( ".cursors6" ).click(function() {
+        $("body").removeClass("charmander-cursor");
+        $("body").removeClass("mario-cursor");
+          $("body").removeClass("yoshi-cursor");
+            $("body").removeClass("link-cursor");
+            $("body").removeClass("sonic-cursor");
+            $("body").addClass("pacman-cursor");
+            $("body").removeClass("creeper-cursor");
+      });
+
+      $( ".cursors7" ).click(function() {
+        $("body").removeClass("charmander-cursor");
+        $("body").removeClass("mario-cursor");
+          $("body").removeClass("yoshi-cursor");
+            $("body").removeClass("link-cursor");
+            $("body").removeClass("sonic-cursor");
+            $("body").removeClass("pacman-cursor");
+            $("body").addClass("creeper-cursor");
+      });
+
+
+
+
+
+
+
+      $( ".on-off" ).click(function() {
+        $(".video").addClass("appear");
+        $(".smallcircle").addClass("green-light");
+        $(this).addClass("disappear");
+        $(".on-off-big").removeClass("on-off-big-animation");
+        $(".on-off-big").addClass("disappear");
+        $("h1").addClass("escape-animation1");
+        $(".escape2").addClass("escape-animation2");
+        $(".subtitle").addClass("subtitle-animation");
+
+      });
+
+
+
+// THIS IS THE END OF DOCUMENT READY
+    });
+
+    </script>
+
+
+
+    <style>
+
+    @import url("https://use.typekit.net/xrp3hdw.css");
+
+    body {
+
+      background-color:#FFCC00;
+      overflow-x:hidden;
+      margin-left: 20px
+    }
+
+    .menubox {
+      float:left;
+      width:80px;
+      height:25px;
+      background-color:#bbbaba;
+      border-radius: 5px;
+      margin-left: 3px;
+      margin-right: 3px;
+      font-family: "nudista-web",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:15px;
+    text-align: center;
+    padding-top:4px;
+    color:white;
+    }
+
+    .menu {
+      position:absolute;
+      top:2000px;
+      left:50px;
+    }
+
+    .purple:hover {
+      background-color:#80778c;
+    }
+
+    .black:hover {
+      background-color:#282c33;
+    }
+
+    .pink:hover {
+      background-color: #5f164b;
+    }
+
+
+
+
+  .imagebackground {
+      width:97vw;
+      z-index:-4;
+
+    }
+
+  .video-background {
+    background-color: #928e7b;
+    position:absolute;
+    top:80px;
+    left:7%;
+    right:93%;
+    width:85%;
+    height:90%;
+    z-index:-5;
+
+  }
+
+  .triangulardec {
+    	width: 0;
+    	height: 0;
+    	border-left:25px solid transparent;
+    	border-right: 25px solid transparent;
+    	border-bottom: 60px solid #FF3333;
+      transform:rotate(140deg);
+      position:absolute;
+      top:40px;
+      left:75px;
+
+    }
+
+    .triangulardec2 {
+        width: 0;
+        height: 0;
+        border-left:25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 60px solid #FF3333;
+        transform:rotate(-140deg);
+        position:absolute;
+        top:40px;
+        right:70px;
+
+      }
+
+    h1 {
+      font-family: "narly",sans-serif;
+font-style: normal;
+font-weight:400;
+font-size:130px;
+color:#ffffff;
+position:absolute;
+top:300px;
+right:-800px;
+transform:rotate(-10deg);
+    }
+
+.escape-animation1 {
+  animation: move1 3s forwards ; /* IE 10+, Fx 29+ */
+}
+
+
+        @keyframes move1 {
+            0%   { top: 200px; right:-800px; }
+            100%   { top: 390px; right:570px;  }
+              }
+
+
+
+    .escape2 {
+      font-family: "narly",sans-serif;
+font-style: normal;
+font-weight:400;
+font-size:130px;
+color:#000000;
+position:absolute;
+top:300px;
+right:-900px;
+    }
+
+.escape-animation2 {
+  animation: move2 3s forwards ; /* IE 10+, Fx 29+ */
+  animation-delay: .5s;
+
+}
+
+
+        @keyframes move2 {
+            0%   { top: 240px; right:-400px; }
+            100%   { top: 360px; right:545px;  }
+              }
+
+    .subtitle {
+      font-family: "cholla-sans",sans-serif;
+  font-style: italic;
+  font-weight: 700;
+    font-size:50px;
+    color:#FFCC00;
+    position:absolute;
+    top:400px;
+    right:-600px;
+    transform:rotate(-9deg);
+
+        }
+
+.subtitle-animation {
+  animation: move3 3s forwards ; /* IE 10+, Fx 29+ */
+  animation-delay: 3s;
+}
+
+
+            @keyframes move3 {
+                0%   { top: 360px; right:-900px; }
+                100%   { top: 570px; right:340px;  }
+                  }
+
+div.line-decoration {
+  width:2000px;
+  height:105px;
+  background-color:#a0f5f5;
+  transform:rotate(-9deg);
+  position:absolute;
+  top:530px;
+  left:-100px;
+
+}
+
+div.line-decoration2 {
+  width:2000px;
+  height:10px;
+  background-color:#a0f5f5;
+  transform:rotate(-9deg);
+  position:absolute;
+  top:645px;
+  left:-100px;
+
+}
+
+.bodytext {
+  color:white;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 400;
+  font-size:17px;
+  position:absolute;
+  top:790px;
+  left:400px;
+  max-width: 400px;
+  line-height:1.5;
+}
+
+.down {
+  top:1080px;
+}
+
+.lower {
+  top:1720px;
+}
+
+.cursor-image1 {
+  width:25%;
+  position:absolute;
+  top:98%;
+  bottom:2%;
+  left:65%;
+  right:35%;
+  z-index:-3;
+}
+
+.appear {
+  opacity:1 !important;
+}
+
+.disappear {
+  opacity:0 !important;
+}
+
+
+.cursor-image1block {
+  width:300px;
+  height:280px;
+  position:absolute;
+  background-color:black;
+  top:659px;
+  left:810px;
+  z-index:-3;
+}
+
+
+
+.cursor-image2 {
+  width:16%;
+  position:absolute;
+  top:136%;
+  bottom:0%;
+  left:73%;
+  right:27%;
+  z-index:-4;
+}
+
+.cursor-image3 {
+  width:200px;
+  position:absolute;
+  top:1021px;
+  left:850px;
+  z-index:-4;
+}
+
+
+.wiipointers {
+  width:300px;
+  position:absolute;
+  top:1500px;
+  left:240px;
+  border: 15px solid #3d5f5f;
+}
+
+.xboxpointers {
+  left:650px;
+}
+
+.video {
+  position:absolute;
+  opacity:0;
+  top:80px;
+  left:7%;
+  right:93%;
+  width:85%;
+  height:inherit;
+  z-index:-2;
+}
+
+.onbuttons {
+  position:absolute;
+  top:77%;
+  bottom:23%;
+  left:80%;
+  right:20%;
+}
+.on-off {
+  width:60px;
+  transform:rotate(-10deg);
+  z-index: 2;
+  position:absolute;
+  top:15%;
+  bottom:80%;
+}
+
+.on-off2 {
+  width:60px;
+  transform:rotate(-10deg);
+  z-index: 1;
+}
+
+.on-off-big {
+  position:absolute;
+  left:79.5%;
+  right:20%;
+  top:76.3%;
+  width:75px;
+  transform:rotate(-10deg);
+
+      }
+
+.on-off-big-animation {
+
+  animation: blink .6s infinite; /* IE 10+, Fx 29+ */
+}
+
+      .smallcircle {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: #949292;
+        position:absolute;
+        top:60px;
+        left:130px;
+        z-index:2;
+      }
+
+      .smallcircle2 {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        background-color: #949292;
+        position:absolute;
+        top:65px;
+        left:150px;
+        z-index:2;
+
+      }
+
+      .smallcircle3 {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        background-color: #949292;
+        position:absolute;
+        top:65px;
+        left:160px;
+        z-index:2;
+
+      }
+
+
+.green-light {
+  background-color: green;
+  animation: blink-fast 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+
+          @keyframes blink {
+              0%   {  opacity: .2; }
+              100%   { opacity: 1; }
+                }
+
+                @keyframes blink-fast {
+                    0%   { background-color: green; }
+
+                    60%  { background-color: green; }
+                    61% { background-color: #949292;}
+                    80% { background-color: #949292;}
+                      81% { background-color: green;}
+
+                    95.8%   { background-color: green; }
+                    96.1%   { background-color: green; }
+                    96.2%   { background-color: #949292;}
+                    96.3%   { background-color: green; }
+                    96.4%   { background-color: #949292;}
+                    96.7%   { background-color: green; }
+                    96.8%   { background-color: #949292;}
+                    100%   { background-color: green; }
+
+                      }
+
+
+    .cursors1 {
+      width:95px;
+      position:absolute;
+      top:900px;
+      left:60px;
+
+    }
+
+    .cursors2 {
+      width:100px;
+      position:absolute;
+      top:900px;
+      left:130px;
+
+    }
+
+    .cursors3 {
+      width:70px;
+      position:absolute;
+      top:905px;
+      left:208px;
+    }
+
+    .cursors4 {
+      width:70px;
+      position:absolute;
+      top:905px;
+      left:278px;
+    }
+
+    .cursors5 {
+      width:70px;
+      position:absolute;
+      top:975px;
+      left:60px;
+    }
+
+    .cursors6 {
+      width:70px;
+      position:absolute;
+      top:975px;
+      left:130px;
+    }
+
+    .cursors7 {
+      width:70px;
+      position:absolute;
+      top:975px;
+      left:200px;
+    }
+
+
+.mario-cursor {
+      cursor: url('img/mario.gif'), auto !important;
+}
+
+.link-cursor {
+      cursor: url('img/link.gif'), auto !important;
+}
+
+.charmander-cursor {
+      cursor: url('img/charmander.png'), auto !important;
+}
+
+.yoshi-cursor {
+      cursor: url('img/yoshi.gif'), auto !important;
+}
+
+.sonic-cursor {
+      cursor: url('img/sonic.gif'), auto !important;
+}
+
+
+.pacman-cursor {
+      cursor: url('img/pacman.gif'), auto !important;
+}
+
+.creeper-cursor {
+      cursor: url('img/creeper.png'), auto !important;
+}
+
+.cursors-square {
+  width:300px;
+  height:150px;
+  background-color: transparent;
+  border: .6px solid #FFCC00;
+  position:absolute;
+  top:900px;
+  left:50px;
+}
+
+.dangerous {
+  font-family: "lores-9-narrow",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+position:absolute;
+top:850px;
+left:50px;
+color:#ee3c24;
+max-width:250px;
+animation: blink .6s infinite; /* IE 10+, Fx 29+ */
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+  <div class="menu">
+  <div class="menubox purple" a href="">Precision</div>
+  <div class="menubox black" a href="">Menu</div>
+  <div class="menubox pink" a href="">Immersion</div>
+  </div>
+
+<div class="everything">
+<div class="video-background"></div>
+<div class="cursors-square"></div>
+<div class="smallcircle"></div>
+<div class="smallcircle2"></div>
+<div class="smallcircle3"></div>
+<div class="line-decoration"></div>
+<div class="line-decoration2"></div>
+<div class="game_background"></div>
+<img class="imagebackground" src="img/game_background.png"/>
+<div class="triangulardec"></div>
+<div class="triangulardec2"></div>
+<img class="cursors1" src="img/link.gif"/>
+<img class="cursors2" src="img/charmander.png"/>
+<img class="cursors3" src="img/mario.gif"/>
+<img class="cursors4" src="img/yoshi.gif"/>
+<img class="cursors5" src="img/sonic.gif"/>
+<img class="cursors6" src="img/pacman.gif"/>
+<img class="cursors7" src="img/creeper.png"/>
+
+
+<div>
+<h1 class="escape2">Escape</h1>
+<h1>Escape</h1>
+<h2 class="subtitle">Pointers in Entertainment</h2>
+</div>
+
+<div>
+<p class="bodytext">
+  In the world of gaming, pointers have also been necessary for the user to navigate the very varied interfaces of videogames. Most of the times, pointers are designed around the theme and style
+  of the game itself. Pointers in videogames come in all shapes and sizes. Any console and game that requires them, has their own unique pointer.
+</p>
+
+<p class="bodytext down">
+  Consoles with handheld pointing devices such as Nintendo's Wii and the Playstation Move, introduced a new need for on-screen
+   cursors. The player physically points to the screen with the remote and the pointer follows this motion as accurately as it can.
+   While the appearance of these pointers does change and the designs are varied, in-game, the actual purpose of the pointer is
+    simpler than in a computer. They are used almost always to navigate menus, to choose a fighter, or to aim some sort of weapon.
+
+
+<p class="bodytext lower">
+    In most videogames though, pointers are not necessary at all. Instead, the keyboard on a computer or buttons on a controller
+    or handheld device are favored.
+
+</p>
+
+<p class="dangerous">
+  It's dangerous to go alone! Click on one of these.
+</p>
+<div class="onbuttons">
+<img class="on-off" src="img/off.png"/>
+<img class="on-off2" src="img/on.png"/>
+
+</div>
+<img class="on-off-big on-off-big-animation" src="img/off.png"/>
+<div>
+<img class="cursor-image1" src="img/smashbros.jpg"/>
+<div class="cursor-image1block disappear"></div>
+<img class="cursor-image2" src="img/wiiuJD_cursor.jpg"/>
+<img class="cursor-image3" src="img/MeleesCharacters.jpg"/>
+</div>
+
+<div>
+<img class="wiipointers" src="img/wii_pointer.jpg"/>
+<img class="wiipointers xboxpointers" src="img/Xbox2010_CursorInteractionStates.jpg"/>
+</div>
+<div></div>
+<div></div>
+
+<video class="video" width="400" autoplay loop muted>
+  <source src="img/Pointers-in-videogames.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+</div>
+</body>
+</html>

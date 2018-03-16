@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+
+    $( document ).ready(function() {
+
+      $( ".icons1" ).hover(function() {
+        $(this).addClass("icon1");
+        $(this).removeClass("icon2");
+          $(this).removeClass("icon3");
+              $(this).removeClass("icon4");
+              $(this).removeClass("icon5");
+              $(this).removeClass("icon6");
+              $(this).removeClass("icon7");
+              $(this).removeClass("icon8");
+              $(this).removeClass("icon9");
+              $(this).removeClass("icon10");
+              $(this).removeClass("icon11");
+              $(this).removeClass("icon12");
+              $(this).removeClass("icon13");
+              $(this).removeClass("icon14");
+              $(this).removeClass("icon15");
+              $(this).removeClass("icon16");
+              $(this).removeClass("icon17");
+                });
+
+
+                $( ".icons2" ).hover(function() {
+                  $(this).removeClass("icon1");
+                  $(this).addClass("icon2");
+                    $(this).removeClass("icon3");
+                        $(this).removeClass("icon4");
+                        $(this).removeClass("icon5");
+                        $(this).removeClass("icon6");
+                        $(this).removeClass("icon7");
+                        $(this).removeClass("icon8");
+                        $(this).removeClass("icon9");
+                        $(this).removeClass("icon10");
+                        $(this).removeClass("icon11");
+                        $(this).removeClass("icon12");
+                        $(this).removeClass("icon13");
+                        $(this).removeClass("icon14");
+                        $(this).removeClass("icon15");
+                        $(this).removeClass("icon16");
+                        $(this).removeClass("icon17");
+                          });
+
+
+
+                          $( ".icons3" ).hover(function() {
+                            $(this).removeClass("icon1");
+                            $(this).removeClass("icon2");
+                              $(this).addClass("icon3");
+                                  $(this).removeClass("icon4");
+                                  $(this).removeClass("icon5");
+                                  $(this).removeClass("icon6");
+                                  $(this).removeClass("icon7");
+                                  $(this).removeClass("icon8");
+                                  $(this).removeClass("icon9");
+                                  $(this).removeClass("icon10");
+                                  $(this).removeClass("icon11");
+                                  $(this).removeClass("icon12");
+                                  $(this).removeClass("icon13");
+                                  $(this).removeClass("icon14");
+                                  $(this).removeClass("icon15");
+                                  $(this).removeClass("icon16");
+                                  $(this).removeClass("icon17");
+                                    });
+
+
+                                    $( ".icons4" ).hover(function() {
+                                      $(this).removeClass("icon1");
+                                      $(this).removeClass("icon2");
+                                        $(this).removeClass("icon3");
+                                            $(this).addClass("icon4");
+                                            $(this).removeClass("icon5");
+                                            $(this).removeClass("icon6");
+                                            $(this).removeClass("icon7");
+                                            $(this).removeClass("icon8");
+                                            $(this).removeClass("icon9");
+                                            $(this).removeClass("icon10");
+                                            $(this).removeClass("icon11");
+                                            $(this).removeClass("icon12");
+                                            $(this).removeClass("icon13");
+                                            $(this).removeClass("icon14");
+                                            $(this).removeClass("icon15");
+                                            $(this).removeClass("icon16");
+                                            $(this).removeClass("icon17");
+                                              });
+
+
+                                              $( ".icons5" ).hover(function() {
+                                                $(this).removeClass("icon1");
+                                                $(this).removeClass("icon2");
+                                                  $(this).removeClass("icon3");
+                                                      $(this).removeClass("icon4");
+                                                      $(this).addClass("icon5");
+                                                      $(this).removeClass("icon6");
+                                                      $(this).removeClass("icon7");
+                                                      $(this).removeClass("icon8");
+                                                      $(this).removeClass("icon9");
+                                                      $(this).removeClass("icon10");
+                                                      $(this).removeClass("icon11");
+                                                      $(this).removeClass("icon12");
+                                                      $(this).removeClass("icon13");
+                                                      $(this).removeClass("icon14");
+                                                      $(this).removeClass("icon15");
+                                                      $(this).removeClass("icon16");
+                                                      $(this).removeClass("icon17");
+                                                        });
+
+
+                                                        $( ".icons6" ).hover(function() {
+                                                          $(this).removeClass("icon1");
+                                                          $(this).removeClass("icon2");
+                                                            $(this).removeClass("icon3");
+                                                                $(this).removeClass("icon4");
+                                                                $(this).removeClass("icon5");
+                                                                $(this).addClass("icon6");
+                                                                $(this).removeClass("icon7");
+                                                                $(this).removeClass("icon8");
+                                                                $(this).removeClass("icon9");
+                                                                $(this).removeClass("icon10");
+                                                                $(this).removeClass("icon11");
+                                                                $(this).removeClass("icon12");
+                                                                $(this).removeClass("icon13");
+                                                                $(this).removeClass("icon14");
+                                                                $(this).removeClass("icon15");
+                                                                $(this).removeClass("icon16");
+                                                                $(this).removeClass("icon17");
+                                                                  });
+
+                                                                  $( ".icons7" ).hover(function() {
+                                                                    $(this).removeClass("icon1");
+                                                                    $(this).removeClass("icon2");
+                                                                      $(this).removeClass("icon3");
+                                                                          $(this).removeClass("icon4");
+                                                                          $(this).removeClass("icon5");
+                                                                          $(this).removeClass("icon6");
+                                                                          $(this).addClass("icon7");
+                                                                          $(this).removeClass("icon8");
+                                                                          $(this).removeClass("icon9");
+                                                                          $(this).removeClass("icon10");
+                                                                          $(this).removeClass("icon11");
+                                                                          $(this).removeClass("icon12");
+                                                                          $(this).removeClass("icon13");
+                                                                          $(this).removeClass("icon14");
+                                                                          $(this).removeClass("icon15");
+                                                                          $(this).removeClass("icon16");
+                                                                          $(this).removeClass("icon17");
+                                                                            });
+
+
+                                                                            $( ".icons8" ).hover(function() {
+                                                                              $(this).removeClass("icon1");
+                                                                              $(this).removeClass("icon2");
+                                                                                $(this).removeClass("icon3");
+                                                                                    $(this).removeClass("icon4");
+                                                                                    $(this).removeClass("icon5");
+                                                                                    $(this).removeClass("icon6");
+                                                                                    $(this).removeClass("icon7");
+                                                                                    $(this).addClass("icon8");
+                                                                                    $(this).removeClass("icon9");
+                                                                                    $(this).removeClass("icon10");
+                                                                                    $(this).removeClass("icon11");
+                                                                                    $(this).removeClass("icon12");
+                                                                                    $(this).removeClass("icon13");
+                                                                                    $(this).removeClass("icon14");
+                                                                                    $(this).removeClass("icon15");
+                                                                                    $(this).removeClass("icon16");
+                                                                                    $(this).removeClass("icon17");
+                                                                                      });
+
+                                                                                      $( ".icons9" ).hover(function() {
+                                                                                        $(this).removeClass("icon1");
+                                                                                        $(this).removeClass("icon2");
+                                                                                          $(this).removeClass("icon3");
+                                                                                              $(this).removeClass("icon4");
+                                                                                              $(this).removeClass("icon5");
+                                                                                              $(this).removeClass("icon6");
+                                                                                              $(this).removeClass("icon7");
+                                                                                              $(this).removeClass("icon8");
+                                                                                              $(this).addClass("icon9");
+                                                                                              $(this).removeClass("icon10");
+                                                                                              $(this).removeClass("icon11");
+                                                                                              $(this).removeClass("icon12");
+                                                                                              $(this).removeClass("icon13");
+                                                                                              $(this).removeClass("icon14");
+                                                                                              $(this).removeClass("icon15");
+                                                                                              $(this).removeClass("icon16");
+                                                                                              $(this).removeClass("icon17");
+                                                                                                });
+
+                                                                                                $( ".icons10" ).hover(function() {
+                                                                                                  $(this).removeClass("icon1");
+                                                                                                  $(this).removeClass("icon2");
+                                                                                                    $(this).removeClass("icon3");
+                                                                                                        $(this).removeClass("icon4");
+                                                                                                        $(this).removeClass("icon5");
+                                                                                                        $(this).removeClass("icon6");
+                                                                                                        $(this).removeClass("icon7");
+                                                                                                        $(this).removeClass("icon8");
+                                                                                                        $(this).removeClass("icon9");
+                                                                                                        $(this).addClass("icon10");
+                                                                                                        $(this).removeClass("icon11");
+                                                                                                        $(this).removeClass("icon12");
+                                                                                                        $(this).removeClass("icon13");
+                                                                                                        $(this).removeClass("icon14");
+                                                                                                        $(this).removeClass("icon15");
+                                                                                                        $(this).removeClass("icon16");
+                                                                                                        $(this).removeClass("icon17");
+                                                                                                          });
+
+                                                                                                          $( ".icons11" ).hover(function() {
+                                                                                                            $(this).removeClass("icon1");
+                                                                                                            $(this).removeClass("icon2");
+                                                                                                              $(this).removeClass("icon3");
+                                                                                                                  $(this).removeClass("icon4");
+                                                                                                                  $(this).removeClass("icon5");
+                                                                                                                  $(this).removeClass("icon6");
+                                                                                                                  $(this).removeClass("icon7");
+                                                                                                                  $(this).removeClass("icon8");
+                                                                                                                  $(this).removeClass("icon9");
+                                                                                                                  $(this).removeClass("icon10");
+                                                                                                                  $(this).addClass("icon11");
+                                                                                                                  $(this).removeClass("icon12");
+                                                                                                                  $(this).removeClass("icon13");
+                                                                                                                  $(this).removeClass("icon14");
+                                                                                                                  $(this).removeClass("icon15");
+                                                                                                                  $(this).removeClass("icon16");
+                                                                                                                  $(this).removeClass("icon17");
+                                                                                                                    });
+
+                                                                                                                    $( ".icons12" ).hover(function() {
+                                                                                                                      $(this).removeClass("icon1");
+                                                                                                                      $(this).removeClass("icon2");
+                                                                                                                        $(this).removeClass("icon3");
+                                                                                                                            $(this).removeClass("icon4");
+                                                                                                                            $(this).removeClass("icon5");
+                                                                                                                            $(this).removeClass("icon6");
+                                                                                                                            $(this).removeClass("icon7");
+                                                                                                                            $(this).removeClass("icon8");
+                                                                                                                            $(this).removeClass("icon9");
+                                                                                                                            $(this).removeClass("icon10");
+                                                                                                                            $(this).removeClass("icon11");
+                                                                                                                            $(this).addClass("icon12");
+                                                                                                                            $(this).removeClass("icon13");
+                                                                                                                            $(this).removeClass("icon14");
+                                                                                                                            $(this).removeClass("icon15");
+                                                                                                                            $(this).removeClass("icon16");
+                                                                                                                            $(this).removeClass("icon17");
+                                                                                                                              });
+
+                                                                                                                              $( ".icons13" ).hover(function() {
+                                                                                                                                $(this).removeClass("icon1");
+                                                                                                                                $(this).removeClass("icon2");
+                                                                                                                                  $(this).removeClass("icon3");
+                                                                                                                                      $(this).removeClass("icon4");
+                                                                                                                                      $(this).removeClass("icon5");
+                                                                                                                                      $(this).removeClass("icon6");
+                                                                                                                                      $(this).removeClass("icon7");
+                                                                                                                                      $(this).removeClass("icon8");
+                                                                                                                                      $(this).removeClass("icon9");
+                                                                                                                                      $(this).removeClass("icon10");
+                                                                                                                                      $(this).removeClass("icon11");
+                                                                                                                                      $(this).removeClass("icon12");
+                                                                                                                                      $(this).addClass("icon13");
+                                                                                                                                      $(this).removeClass("icon14");
+                                                                                                                                      $(this).removeClass("icon15");
+                                                                                                                                      $(this).removeClass("icon16");
+                                                                                                                                      $(this).removeClass("icon17");
+                                                                                                                                        });
+
+                                                                                                                                        $( ".icons14" ).hover(function() {
+                                                                                                                                          $(this).removeClass("icon1");
+                                                                                                                                          $(this).removeClass("icon2");
+                                                                                                                                            $(this).removeClass("icon3");
+                                                                                                                                                $(this).removeClass("icon4");
+                                                                                                                                                $(this).removeClass("icon5");
+                                                                                                                                                $(this).removeClass("icon6");
+                                                                                                                                                $(this).removeClass("icon7");
+                                                                                                                                                $(this).removeClass("icon8");
+                                                                                                                                                $(this).removeClass("icon9");
+                                                                                                                                                $(this).removeClass("icon10");
+                                                                                                                                                $(this).removeClass("icon11");
+                                                                                                                                                $(this).removeClass("icon12");
+                                                                                                                                                $(this).removeClass("icon13");
+                                                                                                                                                $(this).addClass("icon14");
+                                                                                                                                                $(this).removeClass("icon15");
+                                                                                                                                                $(this).removeClass("icon16");
+                                                                                                                                                $(this).removeClass("icon17");
+                                                                                                                                                  });
+
+                                                                                                                                                  $( ".icons15" ).hover(function() {
+                                                                                                                                                    $(this).removeClass("icon1");
+                                                                                                                                                    $(this).removeClass("icon2");
+                                                                                                                                                      $(this).removeClass("icon3");
+                                                                                                                                                          $(this).removeClass("icon4");
+                                                                                                                                                          $(this).removeClass("icon5");
+                                                                                                                                                          $(this).removeClass("icon6");
+                                                                                                                                                          $(this).removeClass("icon7");
+                                                                                                                                                          $(this).removeClass("icon8");
+                                                                                                                                                          $(this).removeClass("icon9");
+                                                                                                                                                          $(this).removeClass("icon10");
+                                                                                                                                                          $(this).removeClass("icon11");
+                                                                                                                                                          $(this).removeClass("icon12");
+                                                                                                                                                          $(this).removeClass("icon13");
+                                                                                                                                                          $(this).removeClass("icon14");
+                                                                                                                                                          $(this).addClass("icon15");
+                                                                                                                                                          $(this).removeClass("icon16");
+                                                                                                                                                          $(this).removeClass("icon17");
+                                                                                                                                                            });
+
+                                                                                                                                                            $( ".icons16" ).hover(function() {
+                                                                                                                                                              $(this).removeClass("icon1");
+                                                                                                                                                              $(this).removeClass("icon2");
+                                                                                                                                                                $(this).removeClass("icon3");
+                                                                                                                                                                    $(this).removeClass("icon4");
+                                                                                                                                                                    $(this).removeClass("icon5");
+                                                                                                                                                                    $(this).removeClass("icon6");
+                                                                                                                                                                    $(this).removeClass("icon7");
+                                                                                                                                                                    $(this).removeClass("icon8");
+                                                                                                                                                                    $(this).removeClass("icon9");
+                                                                                                                                                                    $(this).removeClass("icon10");
+                                                                                                                                                                    $(this).removeClass("icon11");
+                                                                                                                                                                    $(this).removeClass("icon12");
+                                                                                                                                                                    $(this).removeClass("icon13");
+                                                                                                                                                                    $(this).removeClass("icon14");
+                                                                                                                                                                    $(this).removeClass("icon15");
+                                                                                                                                                                    $(this).addClass("icon16");
+                                                                                                                                                                    $(this).removeClass("icon17");
+                                                                                                                                                                      });
+
+                                                                                                                                                                      $( ".icons17" ).hover(function() {
+                                                                                                                                                                        $(this).removeClass("icon1");
+                                                                                                                                                                        $(this).removeClass("icon2");
+                                                                                                                                                                          $(this).removeClass("icon3");
+                                                                                                                                                                              $(this).removeClass("icon4");
+                                                                                                                                                                              $(this).removeClass("icon5");
+                                                                                                                                                                              $(this).removeClass("icon6");
+                                                                                                                                                                              $(this).removeClass("icon7");
+                                                                                                                                                                              $(this).removeClass("icon8");
+                                                                                                                                                                              $(this).removeClass("icon9");
+                                                                                                                                                                              $(this).removeClass("icon10");
+                                                                                                                                                                              $(this).removeClass("icon11");
+                                                                                                                                                                              $(this).removeClass("icon12");
+                                                                                                                                                                              $(this).removeClass("icon13");
+                                                                                                                                                                              $(this).removeClass("icon14");
+                                                                                                                                                                              $(this).removeClass("icon15");
+                                                                                                                                                                              $(this).removeClass("icon16");
+                                                                                                                                                                              $(this).addClass("icon17");
+                                                                                                                                                                                });
+
+
+
+                                                                                                                                                                                $( ".hand1" ).click(function() {
+                                                                                                                                                                                  $("body").addClass("hand1-cursor");
+                                                                                                                                                                                  $("body").removeClass("many-icons");
+
+                                                                                                                                                                                          });
+
+                                                                                                                                                                                          $( ".big-cursor" ).click(function() {
+                                                                                                                                                                                            $("body").addClass("many-icons");
+                                                                                                                                                                                            $("body").removeClass("hand1-cursor");
+
+                                                                                                                                                                                                    });
+
+
+
+
+
+
+  // THIS IS THE END OF DOCUMENT READY
+      });
+
+    </script>
+
+
+
+    <style>
+
+    @import url("https://use.typekit.net/xrp3hdw.css");
+
+    body {
+      background-color:#8aa598;
+    }
+
+    .menubox {
+      float:left;
+      width:80px;
+      height:25px;
+      background-color:#bbbaba;
+      border-radius: 5px;
+      margin-left: 3px;
+      margin-right: 3px;
+      font-family: "nudista-web",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:15px;
+    text-align: center;
+    padding-top: 4px;
+    color:white;
+    }
+
+    .menu {
+      position:absolute;
+      top:2450px;
+      left:850px;
+      z-index: 2;
+    }
+
+    .pink:hover {
+      background-color:#5f164b;
+    }
+
+    .black:hover {
+      background-color:#282c33;
+    }
+
+    .purple:hover {
+      background-color:#80778c;
+    }
+
+
+
+
+    div.background {
+      background-color:transparent;
+      border: 35px solid #2d2d2d;
+      width:94vw;
+      height:400vh;
+      position:absolute;
+      top:-10px;
+      left:0px;
+      right:0px;
+      bottom:0px;
+
+    }
+
+    .icon1 {
+          cursor: url('img/iconvariations/icon2.png'), auto !important;
+    }
+
+    .icon2 {
+          cursor: url('img/iconvariations/icon3.png'), auto !important;
+    }
+    .icon3 {
+          cursor: url('img/iconvariations/icon4.png'), auto !important;
+    }
+    .icon4 {
+          cursor: url('img/iconvariations/icon5.png'), auto !important;
+    }
+    .icon5 {
+          cursor: url('img/iconvariations/icon10.png'), auto !important;
+    }
+    .icon6 {
+          cursor: url('img/iconvariations/icon6.png'), auto !important;
+    }
+    .icon7 {
+          cursor: url('img/iconvariations/icon7.png'), auto !important;
+    }
+    .icon8 {
+          cursor: url('img/iconvariations/icon8.png'), auto !important;
+    }
+    .icon9 {
+          cursor: url('img/iconvariations/icon9.png'), auto !important;
+    }
+    .icon10 {
+          cursor: url('img/iconvariations/icon12.png'), auto !important;
+    }
+    .icon11 {
+          cursor: url('img/iconvariations/icon13.png'), auto !important;
+    }
+    .icon12 {
+          cursor: url('img/iconvariations/icon14.png'), auto !important;
+    }
+    .icon13 {
+          cursor: url('img/iconvariations/icon11.png'), auto !important;
+    }
+    .icon14 {
+          cursor: url('img/iconvariations/icon15.png'), auto !important;
+    }
+    .icon15 {
+          cursor: url('img/iconvariations/icon16.png'), auto !important;
+    }
+    .icon16 {
+          cursor: url('img/iconvariations/icon17.png'), auto !important;
+    }
+    .icon17 {
+          cursor: url('img/iconvariations/icon18.png'), auto !important;
+    }
+
+    .many-icons {
+          cursor: url('img/many-icons.gif'), auto !important;
+    }
+
+  .line {
+    background-color:#e8e8e8;
+    width:97vw;
+    height:30px;
+    position:absolute;
+    top:20px;
+    z-index:-1;
+    box-shadow: 10px 10px 20px #769285;
+
+  }
+
+  .line2 {
+    width:4px;
+    height:1200px;
+    position:absolute;
+    top:580px;
+    left:490px;
+    background-color:#000000;
+    opacity:.6;
+  }
+
+.boxes {
+  margin-top:90px;
+  margin-left:55px;
+
+}
+
+
+
+.whitesquares {
+  background-color:#8aa598;
+  border: 4px solid #ffffff;
+  opacity:.2;
+  width:110px;
+  height:110px;
+  border-width:thin;
+  border-radius:20%;
+  z-index:-2;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  float:left;
+
+
+}
+
+.title {
+  position:absolute;
+  font-family: "courier-prime",monospace;
+  font-style: normal;
+  font-weight:400;
+  font-size:50px;
+  top:430px;
+  left:340px;
+  color:#464545;
+}
+
+.big-cursor {
+  width:260px;
+  position:absolute;
+  top:110px;
+  left:315px;
+  z-index: 1;
+}
+
+.white-rectangle {
+  width:130px;
+  height:600px;
+  background-color:#ffffff;
+  opacity:.3;
+  position:absolute;
+  top:650px;
+  left:359px;
+  border-radius:15px;
+}
+
+.bodytext {
+  max-width:400px;
+  position:absolute;
+  color:#464545;
+  top:600px;
+  font-size: 22px;
+
+}
+
+.smallimages {
+  position:absolute;
+  top:670px;
+  left:345px;
+  max-width:150px;
+}
+
+.hand {
+  margin-top: 20px;
+  margin-bottom:20px;
+  width:130px;
+
+}
+
+.hand1 {
+  margin-top: 20px;
+  margin-bottom:20px;
+  width:130px;
+
+}
+
+.hand1-cursor {
+      cursor: url('img/hand.png'), auto !important;
+}
+
+.icons1 {
+  width:110px;
+
+}
+.icons2 {
+  width:110px;
+
+}
+.icons3 {
+  width:110px;
+
+}
+.icons4 {
+  width:110px;
+
+}
+.icons5 {
+  width:110px;
+
+}
+.icons6 {
+  width:110px;
+
+}
+.icons7 {
+  width:110px;
+
+}
+.icons8 {
+  width:110px;
+
+}
+.icons9 {
+  width:110px;
+
+}
+.icons10 {
+  width:110px;
+
+}
+.icons11 {
+  width:110px;
+
+}
+.icons12 {
+  width:110px;
+
+}
+.icons13 {
+  width:110px;
+
+}
+.icons14 {
+  width:110px;
+
+}
+.icons15 {
+  width:110px;
+
+}
+.icons16 {
+  width:110px;
+
+}
+.icons17 {
+  width:110px;
+
+}
+
+
+
+.left {
+  margin-left:520px;
+}
+
+.down {
+  margin-top:590px;
+}
+
+.lower {
+  margin-top:760px;
+}
+
+.evenlower {
+  margin-top: 1120px;
+}
+
+.images {
+  width:200px;
+  margin-top:-25px;
+}
+
+.images2 {
+  width:200px;
+  margin-left: 20px;
+
+}
+
+.intext-images {
+  float:left;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
+}
+
+.transparent {
+  opacity:0;
+}
+
+.smallcircle {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: #949292;
+  position:absolute;
+  top:30px;
+  left:40px;
+  z-index:2;
+  border: .6px solid gray;
+}
+
+.smallcircle2 {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: #949292;
+  position:absolute;
+  top:30px;
+  left:60px;
+  z-index:2;
+  border: .6px solid gray;
+}
+
+.smallcircle3 {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: #949292;
+  position:absolute;
+  top:30px;
+  left:80px;
+  z-index:2;
+  border: .6px solid gray;
+}
+
+.smallcircle:hover {
+  background-color: #ef5444;
+  border-color: #e03524;
+}
+
+.smallcircle2:hover {
+  background-color: #ffc94e;
+  border-color: #ffbc00;
+}
+
+.smallcircle3:hover {
+  background-color: #54d24c;
+  border-color: #47ad40;
+}
+
+.whitesquares:hover {
+  background-color:#51695d;
+
+}
+
+.mac-examples {
+margin-top: 255px;
+}
+
+.original-pointers {
+  position:absolute;
+  top:645px;
+  left:230px;
+  font-family: "courier-prime",monospace;
+  font-style: normal;
+  font-weight:400;
+  font-size:17px;
+}
+
+.mac-pointers {
+  position:absolute;
+  top:1403px;
+  left:210px;
+  font-family: "courier-prime",monospace;
+  font-style: normal;
+  font-weight:400;
+  font-size:17px;
+}
+
+.animated-cursor {
+  position:absolute;
+  top:1950px;
+
+
+}
+
+
+</style>
+<body>
+  <div class="menu">
+  <div class="menubox pink" a href="">Immersion</div>
+  <div class="menubox black" a href="">Menu</div>
+  <div class="menubox purple" a href="">Precision</div>
+  </div>
+
+<div class="animated-cursor left">
+  <img style="width:500px;" src="img/pasted-movie.gif"/>
+</div>
+
+<div class="smallcircle"></div>
+<div class="smallcircle2"></div>
+<div class="smallcircle3"></div>
+<div class="background"></div>
+<div class="line"></div>
+<div class="line2"></div>
+<div>
+  <img class="floating big-cursor" src="img/big_cursor.png"/>
+</div>
+
+
+<div class="boxes">
+<div class="whitesquares">
+<img class="icons1" src="img/iconvariations/icon2.png"/>
+</div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares">
+<img class="icons2" src="img/iconvariations/icon3.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons3" src="img/iconvariations/icon4.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons4" src="img/iconvariations/icon5.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons5" src="img/iconvariations/icon10.png"/>
+</div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares">
+<img class="icons6" src="img/iconvariations/icon6.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons7" src="img/iconvariations/icon7.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons8" src="img/iconvariations/icon8.png"/>
+</div>
+  <div class="whitesquares">
+  <img class="icons9" src="img/iconvariations/icon9.png"/>
+  </div>
+  <div class="whitesquares"></div>
+  <div class="whitesquares"></div>
+  <div class="whitesquares"></div>
+  <div class="whitesquares"></div>
+<div class="whitesquares">
+<img class="icons10" src="img/iconvariations/icon12.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons11" src="img/iconvariations/icon13.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons12" src="img/iconvariations/icon14.png"/>
+</div>
+  <div class="whitesquares">
+  <img class="icons13" src="img/iconvariations/icon11.png"/>
+  </div>
+  <div class="whitesquares"></div>
+  <div class="whitesquares"></div>
+  <div class="whitesquares"></div>
+  <div class="whitesquares"></div>
+  <div class="whitesquares transparent"></div>
+
+<div class="whitesquares">
+<img class="icons14" src="img/iconvariations/icon15.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons15" src="img/iconvariations/icon16.png"/>
+</div>
+<div class="whitesquares">
+<img class="icons16" src="img/iconvariations/icon17.png"/>
+</div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares"></div>
+<div class="whitesquares transparent"></div>
+<div class="whitesquares transparent"></div>
+<div class="whitesquares transparent"></div>
+<div class="whitesquares">
+<img class="icons17" src="img/iconvariations/icon18.png"/>
+</div>
+<div class="whitesquares"></div>
+<div class="whitesquares transparent"></div>
+<div class="whitesquares transparent"></div>
+
+</div>
+
+<div class="white-rectangle"></div>
+<div class="white-rectangle lower"></div>
+
+
+<div class="title">
+<h1>Pointer</h1>
+</div>
+<div class="original-pointers">
+  <p>The Original "Pointers":</p>
+</div>
+<div class="mac-pointers">
+  <p>Mac Pointers Through Time:</p>
+</div>
+<div class="text">
+<p class="bodytext left"> The first mouse, alongside the first mouse cursor, were invented in 1970 by Douglas Engelbart. These were used for the first time with the
+    Xerox Alto Computer System in 1973.
+</p>
+
+<p class="bodytext left down"> The original cursor was designed pointing straight up; the slanted version we have today was implemented though, since it was easier
+  for low resolution displays to show plus a diagonal cursor was easier to keep track of on screen.
+</p>
+
+
+<p class="bodytext left lower">
+  Simple and straightforward, for many years the default pointer has served its purpose without much change to its design; although many variations have been implemented to facilitate
+  the user's interaction with several functions of the software. These special cursors appear when the pointer has the ability to do more than just pointing. When given the ability
+  to select and highlight text for example, the cursor will turn into a horizontal line that blinks. Pictured at the top are a number of examples of the Mac Os' pointer variations.
+
+</p>
+
+<p class="bodytext left evenlower">
+  The default pointer can change if it is given a custom design. Customizable pointers, possible on websites, became popular in the 90s, when people designed perzonalized blogs.
+  People could design the pointer to look like anything; animated cursors were also possible. The variety is endless.
+</p>
+
+</div>
+<div class="intext-images">
+<img class="images left" src="img/alto.jpg"/>
+<img class="images2 " src="img/4-NLSgui.jpg"/>
+</div>
+
+<div class="smallimages">
+  <img class="hand1" src="img/HAND.jpg"/>
+  <img class="hand" src="img/metalpointer.jpg"/>
+  <img class="hand" src="img/laserpointer.jpg"/>
+<div class="mac-examples"/>
+  <img class=" hand" src="img/mouse_pointer_mac1.jpg"/>
+  <img class=" hand" src="img/pasted-image.jpg"/>
+  <img class=" hand" src="img/mac_10.2.jpg"/>
+</div>
+</div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

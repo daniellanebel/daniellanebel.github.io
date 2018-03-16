@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+      $(".first-div").hover(
+   function () {
+     $(this).addClass('hover');
+     $(".last-div").addClass('hover2');
+   },
+   function () {
+     $(this).removeClass('hover');
+     $(".last-div").removeClass('hover2');
+   });
+
+
+
+
+});
+    </script>
+
+    <style>
+
+    @import url("https://use.typekit.net/xrp3hdw.css");
+
+    body{
+      background-color:#230921;
+    }
+
+    .background-image {
+      margin-top:0px;
+      max-width:100vw;
+    }
+
+    .background-arrow {
+      margin-top: 100px;
+      margin-left: 36px;
+      float:left;
+      width:450px;
+      animation: opacitylines 3.5s infinite alternate; /* IE 10+, Fx 29+ */
+
+    }
+
+    .background-arrow2 {
+    position:absolute;
+    top:215px;
+    left:103px;
+    width:450px;
+    animation: opacitylines2 3.5s infinite alternate; /* IE 10+, Fx 29+ */
+    }
+
+    .background-arrow3 {
+    position:absolute;
+    top:243px;
+    left:116px;
+    width:450px;
+    animation: opacitylines3 3.5s infinite alternate; /* IE 10+, Fx 29+ */
+
+      }
+
+  @keyframes opacitylines {
+    0%   { opacity: 0; }
+    60%  { opacity: 1; }
+    90%  { opacity: 0}
+    95.1%   { opacity: 1; }
+    95.2%   { opacity: 0; }
+    94.3%   { opacity: 1; }
+    95.4%   { opacity: 0; }
+    95.5%   { opacity: 1; }
+    95.6%   { opacity: 0; }
+    95.7%   { opacity: 1; }
+    95.8%   { opacity: 0; }
+    96.1%   { opacity: 1; }
+    96.2%   { opacity: 0; }
+    96.3%   { opacity: 1; }
+    96.4%   { opacity: 0; }
+    96.7%   { opacity: 1; }
+    96.8%   { opacity: 0; }
+    100%   { opacity: 1; }
+
+      }
+
+      @keyframes opacitylines2 {
+        0%   { opacity: 0; }
+        40%  { opacity: 0; }
+        100%   { opacity: 1; }
+          }
+
+
+          @keyframes opacitylines3 {
+            0%   { opacity: 0; }
+            70%  { opacity: 0; }
+            100%   { opacity: 1; }
+              }
+
+
+    .line {
+      position:absolute;
+      top:477px;
+      left:395px;
+      animation: growline 10s forwards ; /* IE 10+, Fx 29+ */
+    }
+
+    .line2 {
+      position:absolute;
+      top:528px;
+      left:265px;
+      transform:rotate(15deg);
+      animation: growlin 10s forwards ; /* IE 10+, Fx 29+ */
+    }
+
+    .line3 {
+      position:absolute;
+      top:397px;
+      left:504px;
+      transform:rotate(-15deg);
+      animation: growlin 10s forwards ; /* IE 10+, Fx 29+ */
+    }
+
+
+    @keyframes growline {
+        0%   { width: 0px; }
+        100%   { width: 550px; }
+          }
+
+   div.line-block {
+            width:200px;
+            height:100px;
+            background-color:#230921;
+            position:absolute;
+            top:270px;
+            left:200px;
+            transform:rotate(60deg);
+            animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+          }
+
+          div.line-block2 {
+                   width:200px;
+                   height:100px;
+                   background-color:#230921;
+                   position:absolute;
+                   top:270px;
+                   left:300px;
+                   transform:rotate(60deg);
+                   animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                 }
+
+                 div.line-block3 {
+                          width:200px;
+                          height:100px;
+                          background-color:#230921;
+                          position:absolute;
+                          top:270px;
+                          left:400px;
+                          transform:rotate(60deg);
+                          animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                        }
+
+                        div.line-block4 {
+                                 width:200px;
+                                 height:100px;
+                                 background-color:#230921;
+                                 position:absolute;
+                                 top:270px;
+                                 left:500px;
+                                 transform:rotate(60deg);
+                                 animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                               }
+
+                               div.line-block5 {
+                                        width:200px;
+                                        height:100px;
+                                        background-color:#230921;
+                                        position:absolute;
+                                        top:270px;
+                                        left:800px;
+                                        transform:rotate(60deg);
+                                        animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                                      }
+
+                                      div.line-block6 {
+                                               width:200px;
+                                               height:100px;
+                                               background-color:#230921;
+                                               position:absolute;
+                                               top:270px;
+                                               left:600px;
+                                               transform:rotate(60deg);
+                                               animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                                             }
+
+                                             div.line-block7 {
+                                                      width:200px;
+                                                      height:100px;
+                                                      background-color:#230921;
+                                                      position:absolute;
+                                                      top:270px;
+                                                      left:700px;
+                                                      transform:rotate(60deg);
+                                                      animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                                                    }
+
+                                                    div.line-block8 {
+                                                             width:200px;
+                                                             height:100px;
+                                                             background-color:#230921;
+                                                             position:absolute;
+                                                             top:270px;
+                                                             left:800px;
+                                                             transform:rotate(60deg);
+                                                             animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                                                           }
+
+                                                           div.line-block9 {
+                                                                    width:200px;
+                                                                    height:100px;
+                                                                    background-color:#230921;
+                                                                    position:absolute;
+                                                                    top:270px;
+                                                                    left:900px;
+                                                                    transform:rotate(60deg);
+                                                                    animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                                                                  }
+
+                                                                  div.line-block10 {
+                                                                           width:200px;
+                                                                           height:100px;
+                                                                           background-color:#230921;
+                                                                           position:absolute;
+                                                                           top:270px;
+                                                                           left:1000px;
+                                                                           transform:rotate(60deg);
+                                                                           animation: shrink 6s forwards ; /* IE 10+, Fx 29+ */
+                                                                         }
+
+
+                                                                         @keyframes shrink {
+                                                                             0%   { width: 200px; }
+                                                                             100%   { width: 0px; }
+                                                                               }
+
+
+
+    h1 {
+      font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 400;
+      font-size: 150px;
+      color:white;
+      position:absolute;
+      top:120px;
+      left:280px;
+      z-index: -2;
+    }
+
+  .body-text {
+    position:absolute;
+    left: 150px;
+    top: 500px;
+    max-width:600px;
+    line-height: 30px;
+    font-family: "nudista-web",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size:15px;
+color:#ffdcfc;
+
+  }
+
+  .down {
+    top:900px;
+  }
+
+  .lower {
+  top:1270px;
+  }
+
+.subtitle {
+  background-color: #926786;
+  opacity:.3;
+  height:60px;
+  width:750px;
+  position:absolute;
+  top:400px;
+  left:200px;
+  font-family: "nudista-web",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size:25px;
+color:#ffffff;
+
+}
+
+.subtitle2 {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.video {
+  position:absolute;
+  top:710px;
+  left:50px;
+}
+
+.video2 {
+  position:absolute;
+  top:1080px;
+  left:500px;
+}
+
+.menubox {
+  float:left;
+  width:80px;
+  height:25px;
+  background-color:#bbbaba;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-family: "nudista-web",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size:15px;
+text-align: center;
+padding-top: 4px;
+color:white;
+}
+
+.menu {
+  position:absolute;
+  top:1450px;
+  left:50px;
+}
+
+.red:hover {
+  background-color:#FF3333;
+}
+
+.black:hover {
+  background-color:#282c33;
+}
+
+.green:hover {
+  background-color:#8aa598 ;
+}
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="menu">
+    <div class="menubox red" a href="">Pointer</div>
+    <div class="menubox black" a href="">Menu</div>
+    <div class="menubox green" a href="">Escape</div>
+    </div>
+
+
+<img class="background-arrow" src="img/arrow-outline.png" />
+<img class="background-arrow2" src="img/arrow-outline2.png" />
+<img class="background-arrow3" src="img/arrow-outline3.png" />
+<img class="line" src="img/LINE.png" />
+<img class="line2" src="img/LINE.png" />
+<img class="line3" src="img/LINE.png" />
+<img class="background-image" src="img/jquery3.png" />
+<div class="line-block"></div>
+<div class="line-block2"></div>
+<div class="line-block3"></div>
+<div class="line-block4"></div>
+<div class="line-block5"></div>
+<div class="line-block6"></div>
+<div class="line-block7"></div>
+<div class="line-block8"></div>
+<div class="line-block9"></div>
+<div class="line-block10"></div>
+<video class="video" width="350px" autoplay loop muted>
+  <source src="img/video1.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<video class="video2" width="350px" autoplay loop muted>
+  <source src="img/video2.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<div>
+<h1> Immersion </h1>
+<p class="body-text">Technology today looks to construct a world that looks and feels as tangible as possible. Heightening immersion is a goal for any user interface designer.
+  In such a world, there is no place for indirect input pointing device such as the mouse and pointer. Much more prevalent in modern product design are touch screens, which
+  offer a more intuitive method of interaction. The direct input eliminates the necessity of a pointer.
+</p>
+<p class="body-text down">In videogames this is also true. In most VR games, pointers are not included anymore. To aim, to pick, to navigate a menu, rather than having a pointer, the items one can
+  interact with are highlighted when you physically point to them. With the aim of mimicking real life and immersing the player, VR has no use for pointers.
+</p>
+
+<p class="body-text lower">
+  As technology advances, the interface becomes increasingly transparent to the user's eye. We've circled back to our original pointing devices: our own two hands.
+</p>
+
+
+</div>
+<div class="subtitle">
+<p class="subtitle2"> Will pointers persist in an age of technological immersion?
+</p>
+</div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+  </body>
+</html>
