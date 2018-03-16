@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+
+    $( document ).ready(function() {
+      var slideIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1}
+          x[slideIndex-1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+
+
+});
+    </script>
+
+
+
+    <style>
+
+    @import url("https://use.typekit.net/xrp3hdw.css");
+
+body {
+  overflow-x: hidden;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: absolute;
+  top:290px;
+  left:160px;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    opacity: .3;
+}
+
+.menubox {
+  float:left;
+  width:80px;
+  height:25px;
+  background-color:#bbbaba;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-family: "nudista-web",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size:15px;
+text-align: center;
+padding-top: 4px;
+color:white;
+}
+
+.menu {
+  position:absolute;
+  top:1350px;
+  left:50px;
+}
+
+
+div.triangle1 {
+
+	width: 0;
+	height: 0;
+	border-left:630px solid transparent;
+	border-right: 630px solid transparent;
+	border-bottom: 710px solid #80778c;
+  transform:rotate(180deg);
+  position:absolute;
+  top:-390px;
+  left:0px;
+  z-index:-1;
+
+}
+
+div.triangle3 {
+
+	width: 600px;
+	height: 1000px;
+  background-color:gray;
+  position:absolute;
+  top:410px;
+  left:-60px;
+  z-index:-2;
+
+}
+
+.line1 {
+  height:2px;
+  width:2000px;
+  background-color:#1a092f;
+  position:absolute;
+  top:600px;
+  left:342px;
+
+}
+
+.line2 {
+  height:2px;
+  width:2000px;
+  background-color:#1a092f;
+  position:absolute;
+  top:725px;
+  left:217px;
+
+}
+
+.line3 {
+  height:2px;
+  width:2000px;
+  background-color:#1a092f;
+  position:absolute;
+  top:850px;
+  left:93px;
+
+}
+
+.big-rectangle {
+  width: 1400px;
+  height: 1400px;
+  background-color:transparent;
+  position:absolute;
+  top:-293px;
+  left:-1117px;
+  transform:rotate(45deg);
+  border: 3px dashed black;
+
+}
+
+.big-rectangle {
+  width: 1400px;
+  height: 1400px;
+  background-color:white;
+  position:absolute;
+  top:-290px;
+  left:-1150px;
+  transform:rotate(45deg);
+  z-index:-1;
+
+}
+
+.huge-rectangle {
+  width: 2000px;
+  height: 530px;
+  background-color:#80778c;
+  opacity:.5;
+  position:absolute;
+  top:460px;
+  left:-380px;
+  border: 20px solid #1a092f;
+  z-index: -2;
+
+}
+
+.left {
+  margin-left: 605px;
+  margin-top: 235px;
+
+}
+
+h1 {
+  font-size:90px;
+  font-family: "utopia-std",serif;
+font-style: normal;
+font-weight: 400;
+position:absolute;
+top:240px;
+}
+
+.bodytext {
+ position:absolute;
+ top:380px;
+ left:615px;
+ font-size: 15px;
+ max-width: 480px;
+ line-height: 20px;
+
+}
+
+.down {
+  top:880px;
+}
+
+.apps {
+  font-size:25px;
+  font-family: "utopia-std",serif;
+font-style: normal;
+font-weight: 400;
+}
+
+.photoshop {
+  position:absolute;
+  top:460px;
+  left:550px;
+}
+
+.illustrator {
+  position:absolute;
+  top:580px;
+  left:550px;
+}
+
+.indesign {
+  position:absolute;
+  top:705px;
+  left:550px;
+}
+
+.animate {
+  position:absolute;
+  top:830px;
+  left:550px;
+}
+
+.icons {
+  position:absolute;
+  top:520px;
+  left:550px;
+}
+
+.shrink {
+  width:20px;
+}
+
+.grow {
+  width:35px;
+}
+
+.spaceout {
+  margin-left: 45px;
+  margin-right: 15px;
+
+}
+
+.green:hover {
+  background-color:#8aa598;
+}
+
+.black:hover {
+  background-color:#282c33;
+}
+
+.red:hover {
+  background-color: #FF3333;
+}
+
+
+</style>
+<body>
+
+<div class="menu">
+<div class="menubox green" a href="">Pointer</div>
+<div class="menubox black" a href="">Menu</div>
+<div class="menubox red" a href="">Escape</div>
+</div>
+
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides">
+
+      <img src="img/id-icon5.png" style="width:500%">
+
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ani-icon5.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ai-icon10.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ps-icon8.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/id-icon2.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/id-icon1.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ani-icon2.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ai-icon1.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ani-icon4.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ps-icon10.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ps-icon12.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/id-icon7.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ai-icon11.png" style="width:500%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/ai-icon14.png" style="width:500%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)" style="opacity:0">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" style="opacity:0">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+
+<div class="triangle1"></div>
+<div class="triangle3"></div>
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+<div class="huge-rectangle"></div>
+<div class="big-rectangle"></div>
+
+<div class="icons">
+  <img class="grow" class="spaceout" src="img/ps-icon1.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon2.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon3.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon4.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon5.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon6.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon7.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon8.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon9.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon10.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon11.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon12.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon13.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon14.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon15.png"/>
+  <img class="grow" class="spaceout" src="img/ps-icon16.png"/>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+
+
+  <img class="grow" class="spaceout" src="img/ai-icon1.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon2.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon3.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon4.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon5.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon6.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon7.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon8.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon9.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon10.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon11.png"/>
+  <img class="grow" class="spaceout" class="shrink" src="img/ai-icon12.png"/>
+  <img class="grow" class="spaceout" class="shrink" src="img/ai-icon13.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon14.png"/>
+  <img class="grow" class="spaceout" src="img/ai-icon15.png"/>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+
+
+
+  <img class="grow" class="spaceout" src="img/ani-icon1.png"/>
+    <img class="grow" class="spaceout" src="img/ani-icon2.png"/>
+      <img class="grow" class="spaceout" src="img/ani-icon3.png"/>
+        <img class="grow" class="spaceout" src="img/ani-icon4.png"/>
+          <img class="grow" class="spaceout" src="img/ani-icon5.png"/>
+            <img class="grow" class="spaceout" src="img/ani-icon6.png"/>
+              <img class="grow" class="spaceout" src="img/ani-icon7.png"/>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+
+
+
+
+              <img class="grow" class="spaceout" src="img/id-icon1.png"/>
+                <img class="grow" class="spaceout" src="img/id-icon2.png"/>
+                  <img class="grow" class="spaceout" src="img/id-icon3.png"/>
+                    <img class="grow" class="spaceout" src="img/id-icon4.png"/>
+                      <img class="grow" class="spaceout" src="img/id-icon5.png"/>
+                        <img class="grow" class="spaceout" src="img/id-icon6.png"/>
+                          <img class="grow" class="spaceout" src="img/id-icon7.png"/>
+
+
+
+
+</div>
+
+<div class="left">
+<h1>Precision</h1>
+<div class="bodytext">
+<p> Beyond the default pointer variations that come with the computer's operating system,
+   applications with actions specific to them require unique pointers to signal these new functions the pointer can perform.
+</p>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<p >Above are pictured some pointers that are unique to the Adobe applications each group is labeled with. The appearance of the
+  pointer changes to match its new ability. This way, the user can be aware at all times of which tool they are employing.
+  For the brush tool, you get a brush, for the magic wand tool, you get a wand. The design illustrates the function;
+  making it also easier to remember what each tool is for. Since they have more tools, more complex apps such as photoshop
+  have many more pointer variations than simpler ones like InDesign.
+
+  The design of these pointers is clear, simple and thus easy to interpret, which makes them perfect for the interface they
+  exist in. In professional softwares like these, the cursors have to be clear and useful while not being obstructive to the
+   user's actions. They essentially have to be the last thing the user thinks about when working.
+</div>
+<div>
+<p class="apps photoshop">Photoshop Cursors</p>
+<p class="apps illustrator">Illustrator Cursors</p>
+<p class="apps indesign">InDesign Cursors</p>
+<p class="apps animate">Animate CC Cursors</p>
+</div>
+<div></div>
+<div></div>
+<div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
