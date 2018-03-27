@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Daniella'sProject</title>
+    <style>
+
+@import url("https://use.typekit.net/xrp3hdw.css");
+
+  p {
+    max-width: 800px;
+  }
+
+
+  body {
+
+    animation: backgroundcolorchange 32s  infinite; /* IE 10+, Fx 29+ */
+
+
+  }
+
+  @keyframes backgroundcolorchange {
+  5%   { background-color: #ffffff; }
+
+        20%   { background-color: #ffffff; }
+          35%   { background-color: #000000; }
+
+              55%   { background-color: #000000; }
+              65%   { background-color: #ffffff; }
+              70%   { background-color: #ffffff; }
+              75%   { background-color: #ffffff; }
+              80%   { background-color: #ffffff; }
+              95%   { background-color: #000000; }
+              95.1%   { background-color: #ffffff; }
+              95.2%   { background-color: #000000; }
+              94.3%   { background-color: #ffffff; }
+              95.4%   { background-color: #000000; }
+              95.5%   { background-color: #ffffff; }
+              95.6%   { background-color: #000000; }
+              95.7%   { background-color: #ffffff; }
+              95.8%   { background-color: #000000; }
+              95.9%   { background-color: #ffffff; }
+              96%     { background-color: #000000; }
+              96.1%   { background-color: #ffffff; }
+              96.2%   { background-color: #000000; }
+              96.3%   { background-color: #ffffff; }
+              96.4%   { background-color: #000000; }
+              96.5%   { background-color: #ffffff; }
+              96.6%   { background-color: #000000; }
+              96.7%   { background-color: #ffffff; }
+              96.8%   { background-color: #000000; }
+}
+
+
+
+    img {
+      width:1600px;
+      position:fixed;
+      left:1px;
+      top:30px;
+      z-index:-3;
+    }
+
+    img.closed {
+         animation: opacity 32s  infinite; /* IE 10+, Fx 29+ */
+         animation-delay: 0s;
+
+    }
+
+    @keyframes opacity {
+      0% {opacity:0; }
+      5%   { opacity: 0; }
+      30.5% {opacity:0;}
+                31.5%   { opacity: 1; }
+
+                  54%   { opacity: 1; }
+                  56%   { opacity: 0; }
+                  65%   { opacity: 0; }
+                  70%   { opacity: 0; }
+                  75%   { opacity: 0; }
+                  80%   { opacity: 0; }
+                  95%   { opacity: 1; }
+                  95.1%   { opacity: 0; }
+                  95.2%   { opacity: 1; }
+                  94.3%   { opacity: 0; }
+                  95.4%   { opacity: 1; }
+                  95.5%   { opacity: 0; }
+                  95.6%   { opacity: 1; }
+                  95.7%   { opacity: 0; }
+                  95.8%   { opacity: 1; }
+                  95.9%   { opacity: 0; }
+                  96%     { opacity: 1; }
+                  96.1%   { opacity: 0; }
+                  96.2%   { opacity: 1; }
+                  96.3%   { opacity: 0; }
+                  96.4%   { opacity: 1; }
+                  96.5%   { opacity: 0; }
+                  96.6%   { opacity: 0; }
+                  96.7%   { opacity: 0; }
+                  96.8%   { opacity: 0; }
+                  100%   { opacity: 0; }
+           }
+
+    img.open {
+         animation: opacity2 32s  infinite; /* IE 10+, Fx 29+ */
+         animation-delay: 0s;
+    }
+
+    @keyframes opacity2 {
+        0%   { opacity: 1; }
+          10%   { opacity: 1; }
+            15%   { opacity: 1; }
+              19%   { opacity: 1; }
+
+              23%  {opacity: 0; }
+
+
+                    59%   { opacity: 0; }
+                    69%   { opacity: 1; }
+
+                    80%   { opacity: 1; }
+                    95%   { opacity: 0; }
+                    95.1%   { opacity: 1; }
+                    95.2%   { opacity: 0; }
+                    94.3%   { opacity: 1; }
+                    95.4%   { opacity: 0; }
+                    95.5%   { opacity: 1; }
+                    95.6%   { opacity: 0; }
+                    95.7%   { opacity: 1; }
+                    95.8%   { opacity: 0; }
+                    95.9%   { opacity: 1; }
+                    96%     { opacity: 0; }
+                    96.1%   { opacity: 1; }
+                    96.2%   { opacity: 0; }
+                    96.3%   { opacity: 1; }
+                    96.4%   { opacity: 0; }
+                    96.5%   { opacity: 1; }
+                    96.6%   { opacity: 0; }
+                    96.7%   { opacity: 1; }
+                    96.8%   { opacity: 0; }
+           }
+
+div.title {
+  color:#000000;
+  position: absolute;
+  left:500px;
+  top:100px;
+  font-family: "nudista-web",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 140px;
+}
+div.black {
+     line-height: 100px;
+     max-width: 2300px;
+     font-size: 150px;
+     color: #ffffff;
+     transform:rotate(-30deg);
+     position:absolute;
+     top:1099px;
+     left:500px;
+     font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+     z-index: -1;
+     animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes color {
+    0%   { color: #ffffff; }
+      10%   { color: #ffffff; }
+        15%   { color: #ffffff; }
+          35% { color: #ffffff}
+          40%  {color: #de1506; }
+
+          52.% {color: #ffffff; }
+          52.1% {color: #ffffff; }
+          52.2% {color: #de1506; }
+          52.3% {color: #ffffff; }
+          52.4% {color: #de1506; }
+          52.5% {color: #ffffff; }
+
+
+                95.7%   { color: #ffffff; }
+
+                95.9%   { color: #de1506; }
+
+                96.4%   { color: #ffffff; }
+                96.5%   { color: #de1506; }
+                96.6%   { color: #ffffff; }
+
+       }
+
+
+div.black2 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:2099px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+  font-style: normal;
+  font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+
+}
+
+div.black3 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 100px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:2499px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black4 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:2799px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black5 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:3099px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black6 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:3499px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black7 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:3799px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black8 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:3999px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black9 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:4299px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black10 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:4599px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black11 {
+  line-height: 100px;
+  max-width: 1500px;
+  font-size: 150px;
+  color: #ffffff;
+  transform:rotate(-30deg);
+  position:absolute;
+  top:4899px;
+  left:200px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.black12 {
+  line-height: 100px;
+  max-width: 2000px;
+  font-size: 190px;
+  color: #ffffff;
+  position:absolute;
+  top:5599px;
+  left:100px;
+  font-family: "source-code-pro",monospace;
+font-style: normal;
+font-weight: 900;
+  z-index: -1;
+  animation: color 32s  infinite; /* IE 10+, Fx 29+ */
+}
+
+div.whitebackground {
+  line-height: 100px;
+  max-width:1930px;
+  font-size: 703px;
+  color: #ffffff;
+  position:relative;
+  top:-520px;
+  left:-40px;
+  font-family: "henderson-sans-basic",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  overflow-x:hidden;
+  z-index: -2;
+}
+
+div.white{
+  line-height: 50px;
+  max-width: 450px;
+  font-size: 28px;
+  color: #000000;
+  position:absolute;
+  top:550px;
+  left:600px;
+  font-family: "henderson-sans-basic",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+
+}
+
+
+div.white2 {
+  line-height: 50px;
+  max-width: 450px;
+  font-size: 28px;
+  color: #000000;
+  position:absolute;
+  top:1380px;
+  left:600px;
+  font-family: "henderson-sans-basic",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+div.white3 {
+  line-height: 50px;
+  max-width: 450px;
+  font-size: 28px;
+  color: #000000;
+  position:absolute;
+  top:2260px;
+  left:600px;
+  font-family: "henderson-sans-basic",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+div.white4 {
+  line-height: 50px;
+  max-width: 450px;
+  font-size: 28px;
+  color: #000000;
+  position:absolute;
+  top:3285px;
+  left:600px;
+  font-family: "henderson-sans-basic",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+div.white5 {
+  line-height: 50px;
+  max-width: 450px;
+  font-size: 28px;
+  color: #000000;
+  position:absolute;
+  top:4350px;
+  left:600px;
+  font-family: "henderson-sans-basic",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+    </style>
+    </head>
+
+<body>
+
+<img class="open" src="images/eye-sketch_normal.jpg">
+<img class="closed" src="images/eye-sketch_invert2.jpg">
+
+<div class="title"> It Is Visual. </div>
+<div class="whitebackground">
+There’s no question to me that the diversity of themes and opinions is
+less online today than it was in the past. New, different, and challenging
+ideas get suppressed by today’s social networks because their ranking
+strategies prioritize the popular and habitual. (No wonder why Apple is
+hiring human editors for its news app.) But diversity is being reduced
+in other ways, and for other purposes.
+</div>
+
+<div class="white">
+There’s no question to me that the diversity of themes and opinions is
+less online today than it was in the past. New, different, and challenging
+ideas get suppressed by today’s social networks because their ranking
+strategies prioritize the popular and habitual. (No wonder why Apple is
+hiring human editors for its news app.) But diversity is being reduced
+in other ways, and for other purposes.
+</div>
+
+<div class="black">
+the diversity of opinions is less.
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="black2">
+ideas get suppressed.
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="black3">
+prioritize the popular.
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="black4">
+diversity is being reduced.
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="black5">
+for other purposes.
+</div>
+
+
+<div class="black6">
+I have very little control
+</div>
+
+<div class="black7">
+must follow a uniform look
+</div>
+
+<div class="black8">
+social networks decide for me
+</div>
+
+<div class="black9">
+easier for things to disappear
+</div>
+
+<div class="black10">
+most platforms don’t let you
+</div>
+
+<div class="black11">
+somebody else has possessed it
+</div>
+
+<div class="black12">
+untransparent decisions
+</div>
+
+<div class="white2">
+Some of it is visual. Yes, it is true that all my posts on Twitter and
+Facebook look something similar to a personal blog: They are collected in
+reverse-chronological order, on a specific webpage, with direct web addresses
+to each post. But I have very little control over how it looks like; I can’t
+personalize it much. My page must follow a uniform look which the designers
+of the social network decide for me.
+</div>
+
+<div class="white3">
+The centralization of information also worries me because it makes it easier
+for things to disappear. After my arrest, my hosting service closed my account,
+because I wasn’t able to pay its monthly fee. But at least I had a backup of
+all my posts in a database on my own web server. (Most blogging platforms
+used to enable you to transfer your posts and archives to your own web space,
+whereas now most platforms don’t let you so.) Even if I didn’t, the Internet
+archive might keep a copy.
+</div>
+
+<div class="white4">
+But what if my account on Facebook or Twitter is shut down for any reason?
+Those services themselves may not die any time soon, but it would be not too
+difficult to imagine a day many American services shut down accounts of anyone
+who is from Iran, as a result of the current regime of sanctions. If that happened,
+I might be able to download my posts in some of them, and let’s assume the backup
+can be easily imported into another platform. But what about the unique web
+address for my social network profile?
+</div>
+
+<div class="white5">
+Would I be able to claim it back later, after somebody else has
+possessed it? Domain names switch hands, too, but managing the process is easier
+and more clear; especially since there is a financial relationship between you
+and the seller which makes it less prone to sudden and untransparent decisions.
+</div>
+
+</body>
+</html>
